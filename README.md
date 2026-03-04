@@ -21,9 +21,9 @@ HistGen framework on frozen pretrained foundation model used as feature extracto
 ## Results
 | Configuration | Feature Extractor | Encoder | REG Score | BLEU-4 | ROUGE-L |
 |---------------|-------------------|---------|-----------|--------|---------|
-| **HistGen** (baseline) | HistGen's DINOv2 ViT-L | **Learned LGH+CMC** | **0.676 ± 0.025** | 0.614 | 0.684 |
-| UNI1 | UNI | **Learned LGH+CMC** | 0.682 ± 0.028 | 0.622 | 0.694 |
-| UNI2 | UNI2 | **Learned LGH+CMC** | **0.698 ± 0.027** | 0.640 | 0.714 |
-| **TITAN** (best) | CONCH | **Frozen TITAN** | **0.742 ± 0.023** | **0.643** | **0.760** |
+| **HistGen** (baseline) | HistGen DINOv2 ViT-L | **HistGen Encoder** | **0.676** | 0.614 | 0.684 |
+| UNI1 | UNI | **HistGen Encoder** | 0.682 | 0.622 | 0.694 |
+| UNI2 | UNI2 | **HistGen Encoder** | **0.698** | 0.640 | 0.714 |
+| **TITAN** (best) | CONCH | **Frozen TITAN** | **0.742** | **0.643** | **0.760** |
 
 
