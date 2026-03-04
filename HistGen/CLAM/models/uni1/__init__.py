@@ -10,7 +10,7 @@ from huggingface_hub import login
 def build_model(device, gpu_num, model_name, model_path):
     if model_name == 'uni1':
         # Login to HuggingFace (you may need to handle this differently)
-        HF_TOKEN = "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"
+        HF_TOKEN = "MY HF TOKEN"
         try:
             login(token=HF_TOKEN)  # Use your HF token
         except Exception as e:
