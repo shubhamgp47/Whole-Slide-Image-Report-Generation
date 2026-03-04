@@ -26,9 +26,12 @@ HistGen framework on frozen pretrained foundation model used as feature extracto
 | UNI2 | UNI2 | **HistGen Encoder** | **0.698** | 0.640 | 0.714 |
 | **TITAN** (best) | CONCH | **Frozen TITAN** | **0.742** | **0.643** | **0.760** |
 
+![Model Evaluation](Results/Model%20Evaluation/all_models_overview.png)
+
+![Model Evaluation](Results/Model%20Evaluation/all_models_overview.html)
+
 ![Improvement over baseline](Results/Improvement%20Heatmap/heatmap_improvement_over_baseline.png)
 
-![Improvement over baseline](Results/Improvement%20Heatmap/heatmap_improvement_over_baseline.pdf)
 
 ## Statistical Significance vs HistGen Baseline 
 
