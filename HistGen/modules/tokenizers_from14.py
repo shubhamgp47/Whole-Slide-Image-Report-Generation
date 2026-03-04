@@ -322,7 +322,6 @@ class MedicalReportTokenizer(object):
         idx2token = {idx: token for idx, token in enumerate(vocab)}
         return token2idx, idx2token
 
-
     def normalize_whitespace(self, text):
         if self.dataset_name == 'wsi_report':
             text = re.sub(r'\n\s*\n', '\n', text)
@@ -371,12 +370,6 @@ class MedicalReportTokenizer(object):
             cleaned = re.sub(r'[.,;:]', '', cleaned)
         
         return cleaned
-
-    
-    
-    
-
-
 
     def tokenize_with_numbers(self, text):
         """Special tokenization that preserves numbers and measurements."""
@@ -452,12 +445,6 @@ class MedicalReportTokenizer(object):
             return result
         return ''
     
-
-    
-
-
-
-
     def clean_report_iu_xray(self, report):
         # Normalize whitespace and punctuation
         report = self.normalize_whitespace(report)
@@ -590,9 +577,6 @@ class MedicalReportTokenizer(object):
         text = re.sub(r'\s+', ' ', text)
         
         return text.strip()
-
-
-
 
     def decode_batch(self, ids_batch):
         """Convert a batch of token ids back to texts."""

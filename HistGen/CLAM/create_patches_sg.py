@@ -218,6 +218,7 @@ def seg_and_patch(source, save_dir, patch_save_dir, mask_save_dir, stitch_save_d
 			mask.save(mask_path)'''
 
 		# Edited to save large images over 65000 pixels as TIFF
+		# Commented as we do not save mask due to space restrictions
 		'''if save_mask:
 			mask = WSI_object.visWSI(**current_vis_params)
 			
@@ -264,6 +265,7 @@ def seg_and_patch(source, save_dir, patch_save_dir, mask_save_dir, stitch_save_d
 		stitch_time_elapsed = -1
 
 		#Edited code to accomodate large file size
+		# Commented as we do not save mask due to space restrictions
 		'''if stitch:
 			file_path = os.path.join(patch_save_dir, slide_id + '.h5')
 			if os.path.isfile(file_path):

@@ -115,7 +115,6 @@ def get_custom_transformer(model_name):
         from models.resnet_custom import custom_transforms
         custom_trans = custom_transforms()
     elif model_name in ['vit_base_patch16_224_21k', 'vit_large_patch16_224_21k', 'vit_huge_patch14_224_21k']:
-        # Do nothing, let vit process do the image processing
         from torchvision import transforms as tt
         custom_trans = tt.Lambda(lambda x: torch.from_numpy(np.array(x)))
     elif model_name in ['mae_vit_large_patch16-1-40000', 'mae_vit_large_patch16-1-140000',

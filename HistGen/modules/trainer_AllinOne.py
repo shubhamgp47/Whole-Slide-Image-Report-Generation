@@ -244,6 +244,7 @@ class Trainer(BaseTrainer):
                                        {i: [re] for i, re in enumerate(val_res)})
             log.update(**{'val_' + k: v for k, v in val_met.items()})
 
+        # Commented test set being used in training in original code
         '''self.logger.info('[{}/{}] Start to evaluate in the test set.'.format(epoch, self.epochs))
         self.model.eval()
         with torch.no_grad():
