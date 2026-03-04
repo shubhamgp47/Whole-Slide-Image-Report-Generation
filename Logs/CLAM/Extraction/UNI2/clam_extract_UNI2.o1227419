@@ -1,0 +1,47 @@
+### Starting TaskPrologue of job 1227419 on tg095 at Fri Sep 26 12:29:36 AM CEST 2025
+Running on cores 64-95 with governor ondemand
+Fri Sep 26 00:29:36 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.65.06              Driver Version: 580.65.06      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:81:00.0 Off |                    0 |
+| N/A   34C    P0             55W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+### Finished TaskPrologue
+
+uni2, GPU is:0
+=== JOB_STATISTICS ===
+=== current date     : Fri Sep 26 11:17:59 PM CEST 2025
+= Job-ID             : 1227419 on tinygpu
+= Job-Name           : clam_extract_UNI2
+= Job-Command        : /home/woody/iwi5/iwi5204h/clam_extract_UNI2.sh
+= Initial workdir    : /home/woody/iwi5/iwi5204h
+= Queue/Partition    : a100
+= Slurm account      : iwi5 with QOS=normal
+= Requested resources:  for 1-00:00:00
+= Elapsed runtime    : 22:48:42
+= Total RAM usage    : 107.8 GiB of requested  GiB (%)   
+= Node list          : tg095
+= Subm/Elig/Start/End: 2025-09-26T00:29:15 / 2025-09-26T00:29:15 / 2025-09-26T00:29:16 / 2025-09-26T23:17:58
+======================
+=== Quota infos ======
+    Path                 Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc              24.8G   104.9G   209.7G        N/A  27,449      500K   1,000K        N/A    
+    /home/woody           398.6G  1000.0G  1500.0G        N/A     286K   5,000K   7,500K        N/A    
+======================
+=== GPU utilization ==
+gpu_name, gpu_bus_id, pid, gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB], time [ms]
+NVIDIA A100-SXM4-40GB, 00000000:81:00.0, 307982, 93 %, 9 %, 3418 MiB, 82086617 ms

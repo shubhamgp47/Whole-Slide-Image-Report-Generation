@@ -1,0 +1,789 @@
+### Starting TaskPrologue of job 1202346 on tg094 at Mon Sep  8 10:24:57 PM CEST 2025
+Running on cores 32-63 with governor ondemand
+Mon Sep  8 22:24:57 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.65.06              Driver Version: 580.65.06      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:41:00.0 Off |                    0 |
+| N/A   45C    P0             58W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+### Finished TaskPrologue
+
+/home/woody/iwi5/iwi5204h/software/private/conda/envs/histgen/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/woody/iwi5/iwi5204h/software/private/conda/envs/histgen/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet101_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet101_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+09/08/2025 22:25:14 - INFO - modules.trainer_AllinOne -   [1/40] Start to train in the training set.
+09/08/2025 22:25:15 - INFO - modules.trainer_AllinOne -   [1/40] Step: 0/6623, Training Loss: 7.31880.
+09/08/2025 22:25:59 - INFO - modules.trainer_AllinOne -   [1/40] Step: 1000/6623, Training Loss: 1.77070.
+09/08/2025 22:26:43 - INFO - modules.trainer_AllinOne -   [1/40] Step: 2000/6623, Training Loss: 1.19779.
+09/08/2025 22:27:28 - INFO - modules.trainer_AllinOne -   [1/40] Step: 3000/6623, Training Loss: 0.95949.
+09/08/2025 22:28:11 - INFO - modules.trainer_AllinOne -   [1/40] Step: 4000/6623, Training Loss: 0.82592.
+09/08/2025 22:28:55 - INFO - modules.trainer_AllinOne -   [1/40] Step: 5000/6623, Training Loss: 0.74229.
+09/08/2025 22:29:40 - INFO - modules.trainer_AllinOne -   [1/40] Step: 6000/6623, Training Loss: 0.67986.
+09/08/2025 22:30:07 - INFO - modules.trainer_AllinOne -   [1/40] Start to evaluate in the validation set.
+09/08/2025 22:36:46 - INFO - modules.trainer_AllinOne -   	epoch          : 1
+09/08/2025 22:36:46 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.6485917021111374
+09/08/2025 22:36:46 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.4825705789731464
+09/08/2025 22:36:46 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.4378198769711582
+09/08/2025 22:36:46 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.4060277514481331
+09/08/2025 22:36:46 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.38479442944291037
+09/08/2025 22:36:46 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.3162769757578859
+09/08/2025 22:36:46 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.5171210646668226
+09/08/2025 22:36:48 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/08/2025 22:36:50 - INFO - modules.trainer_AllinOne -   Saving new best model: model_best_epoch1.pth ...
+09/08/2025 22:36:50 - INFO - modules.trainer_AllinOne -   [2/40] Start to train in the training set.
+09/08/2025 22:36:50 - INFO - modules.trainer_AllinOne -   [2/40] Step: 0/6623, Training Loss: 0.47539.
+09/08/2025 22:37:34 - INFO - modules.trainer_AllinOne -   [2/40] Step: 1000/6623, Training Loss: 0.31514.
+09/08/2025 22:38:18 - INFO - modules.trainer_AllinOne -   [2/40] Step: 2000/6623, Training Loss: 0.30653.
+09/08/2025 22:39:02 - INFO - modules.trainer_AllinOne -   [2/40] Step: 3000/6623, Training Loss: 0.29984.
+09/08/2025 22:39:45 - INFO - modules.trainer_AllinOne -   [2/40] Step: 4000/6623, Training Loss: 0.30100.
+09/08/2025 22:40:29 - INFO - modules.trainer_AllinOne -   [2/40] Step: 5000/6623, Training Loss: 0.30079.
+09/08/2025 22:41:13 - INFO - modules.trainer_AllinOne -   [2/40] Step: 6000/6623, Training Loss: 0.29944.
+09/08/2025 22:41:40 - INFO - modules.trainer_AllinOne -   [2/40] Start to evaluate in the validation set.
+09/08/2025 22:48:20 - INFO - modules.trainer_AllinOne -   	epoch          : 2
+09/08/2025 22:48:20 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.2985893484672145
+09/08/2025 22:48:20 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.5813595747492609
+09/08/2025 22:48:20 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.5421420189731111
+09/08/2025 22:48:20 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.5087491009855701
+09/08/2025 22:48:20 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.48356529842690343
+09/08/2025 22:48:20 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.37178340966250945
+09/08/2025 22:48:20 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6069697984987482
+09/08/2025 22:48:22 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/08/2025 22:48:25 - INFO - modules.trainer_AllinOne -   Saving new best model: model_best_epoch2.pth ...
+09/08/2025 22:48:25 - INFO - modules.trainer_AllinOne -   [3/40] Start to train in the training set.
+09/08/2025 22:48:25 - INFO - modules.trainer_AllinOne -   [3/40] Step: 0/6623, Training Loss: 0.15109.
+09/08/2025 22:49:09 - INFO - modules.trainer_AllinOne -   [3/40] Step: 1000/6623, Training Loss: 0.25470.
+09/08/2025 22:49:53 - INFO - modules.trainer_AllinOne -   [3/40] Step: 2000/6623, Training Loss: 0.25255.
+09/08/2025 22:50:36 - INFO - modules.trainer_AllinOne -   [3/40] Step: 3000/6623, Training Loss: 0.25550.
+09/08/2025 22:51:20 - INFO - modules.trainer_AllinOne -   [3/40] Step: 4000/6623, Training Loss: 0.25472.
+09/08/2025 22:52:04 - INFO - modules.trainer_AllinOne -   [3/40] Step: 5000/6623, Training Loss: 0.25242.
+09/08/2025 22:52:48 - INFO - modules.trainer_AllinOne -   [3/40] Step: 6000/6623, Training Loss: 0.25354.
+09/08/2025 22:53:15 - INFO - modules.trainer_AllinOne -   [3/40] Start to evaluate in the validation set.
+09/08/2025 22:59:54 - INFO - modules.trainer_AllinOne -   	epoch          : 3
+09/08/2025 22:59:54 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.25281591293946637
+09/08/2025 22:59:54 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.5756678189672334
+09/08/2025 22:59:54 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.5361560877689084
+09/08/2025 22:59:54 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.5065788616742365
+09/08/2025 22:59:54 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.4844273691166674
+09/08/2025 22:59:54 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.3624244556601767
+09/08/2025 22:59:54 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.5721852155680307
+09/08/2025 22:59:57 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/08/2025 22:59:59 - INFO - modules.trainer_AllinOne -   Saving new best model: model_best_epoch3.pth ...
+09/08/2025 22:59:59 - INFO - modules.trainer_AllinOne -   [4/40] Start to train in the training set.
+09/08/2025 22:59:59 - INFO - modules.trainer_AllinOne -   [4/40] Step: 0/6623, Training Loss: 0.68185.
+09/08/2025 23:00:43 - INFO - modules.trainer_AllinOne -   [4/40] Step: 1000/6623, Training Loss: 0.22015.
+09/08/2025 23:01:27 - INFO - modules.trainer_AllinOne -   [4/40] Step: 2000/6623, Training Loss: 0.22468.
+09/08/2025 23:02:11 - INFO - modules.trainer_AllinOne -   [4/40] Step: 3000/6623, Training Loss: 0.22669.
+09/08/2025 23:02:56 - INFO - modules.trainer_AllinOne -   [4/40] Step: 4000/6623, Training Loss: 0.23151.
+09/08/2025 23:03:39 - INFO - modules.trainer_AllinOne -   [4/40] Step: 5000/6623, Training Loss: 0.22715.
+09/08/2025 23:04:22 - INFO - modules.trainer_AllinOne -   [4/40] Step: 6000/6623, Training Loss: 0.22662.
+09/08/2025 23:04:49 - INFO - modules.trainer_AllinOne -   [4/40] Start to evaluate in the validation set.
+09/08/2025 23:11:29 - INFO - modules.trainer_AllinOne -   	epoch          : 4
+09/08/2025 23:11:29 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.22559981760891287
+09/08/2025 23:11:29 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.5979526642780748
+09/08/2025 23:11:29 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.5616910417037886
+09/08/2025 23:11:29 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.533011512773156
+09/08/2025 23:11:29 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5124056337847994
+09/08/2025 23:11:29 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.3803447791764211
+09/08/2025 23:11:29 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6079561555530275
+09/08/2025 23:11:31 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/08/2025 23:11:33 - INFO - modules.trainer_AllinOne -   Saving new best model: model_best_epoch4.pth ...
+09/08/2025 23:11:33 - INFO - modules.trainer_AllinOne -   [5/40] Start to train in the training set.
+09/08/2025 23:11:33 - INFO - modules.trainer_AllinOne -   [5/40] Step: 0/6623, Training Loss: 0.68873.
+09/08/2025 23:12:17 - INFO - modules.trainer_AllinOne -   [5/40] Step: 1000/6623, Training Loss: 0.20312.
+09/08/2025 23:13:01 - INFO - modules.trainer_AllinOne -   [5/40] Step: 2000/6623, Training Loss: 0.21232.
+09/08/2025 23:13:44 - INFO - modules.trainer_AllinOne -   [5/40] Step: 3000/6623, Training Loss: 0.21022.
+09/08/2025 23:14:28 - INFO - modules.trainer_AllinOne -   [5/40] Step: 4000/6623, Training Loss: 0.20978.
+09/08/2025 23:15:11 - INFO - modules.trainer_AllinOne -   [5/40] Step: 5000/6623, Training Loss: 0.20985.
+09/08/2025 23:15:55 - INFO - modules.trainer_AllinOne -   [5/40] Step: 6000/6623, Training Loss: 0.20908.
+09/08/2025 23:16:23 - INFO - modules.trainer_AllinOne -   [5/40] Start to evaluate in the validation set.
+09/08/2025 23:23:02 - INFO - modules.trainer_AllinOne -   	epoch          : 5
+09/08/2025 23:23:02 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.20827253853597638
+09/08/2025 23:23:02 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6934247321650204
+09/08/2025 23:23:02 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6534388905336652
+09/08/2025 23:23:02 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6188833077678675
+09/08/2025 23:23:02 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5918450186091418
+09/08/2025 23:23:02 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4291824151204897
+09/08/2025 23:23:02 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.675658687813847
+09/08/2025 23:23:05 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/08/2025 23:23:08 - INFO - modules.trainer_AllinOne -   Saving new best model: model_best_epoch5.pth ...
+09/08/2025 23:23:08 - INFO - modules.trainer_AllinOne -   [6/40] Start to train in the training set.
+09/08/2025 23:23:08 - INFO - modules.trainer_AllinOne -   [6/40] Step: 0/6623, Training Loss: 0.02676.
+09/08/2025 23:23:52 - INFO - modules.trainer_AllinOne -   [6/40] Step: 1000/6623, Training Loss: 0.18259.
+09/08/2025 23:24:36 - INFO - modules.trainer_AllinOne -   [6/40] Step: 2000/6623, Training Loss: 0.19008.
+09/08/2025 23:25:21 - INFO - modules.trainer_AllinOne -   [6/40] Step: 3000/6623, Training Loss: 0.19408.
+09/08/2025 23:26:05 - INFO - modules.trainer_AllinOne -   [6/40] Step: 4000/6623, Training Loss: 0.19160.
+09/08/2025 23:26:49 - INFO - modules.trainer_AllinOne -   [6/40] Step: 5000/6623, Training Loss: 0.19074.
+09/08/2025 23:27:33 - INFO - modules.trainer_AllinOne -   [6/40] Step: 6000/6623, Training Loss: 0.19289.
+09/08/2025 23:28:00 - INFO - modules.trainer_AllinOne -   [6/40] Start to evaluate in the validation set.
+09/08/2025 23:34:39 - INFO - modules.trainer_AllinOne -   	epoch          : 6
+09/08/2025 23:34:39 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.19453415319319461
+09/08/2025 23:34:39 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.669434248413469
+09/08/2025 23:34:39 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.629772899776513
+09/08/2025 23:34:39 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.5939902931864395
+09/08/2025 23:34:39 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5652481127130682
+09/08/2025 23:34:39 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.41516216442160936
+09/08/2025 23:34:39 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6521852722296778
+09/08/2025 23:34:42 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/08/2025 23:34:42 - INFO - modules.trainer_AllinOne -   [7/40] Start to train in the training set.
+09/08/2025 23:34:42 - INFO - modules.trainer_AllinOne -   [7/40] Step: 0/6623, Training Loss: 0.10612.
+09/08/2025 23:35:26 - INFO - modules.trainer_AllinOne -   [7/40] Step: 1000/6623, Training Loss: 0.17886.
+09/08/2025 23:36:10 - INFO - modules.trainer_AllinOne -   [7/40] Step: 2000/6623, Training Loss: 0.18068.
+09/08/2025 23:36:54 - INFO - modules.trainer_AllinOne -   [7/40] Step: 3000/6623, Training Loss: 0.18433.
+09/08/2025 23:37:38 - INFO - modules.trainer_AllinOne -   [7/40] Step: 4000/6623, Training Loss: 0.18334.
+09/08/2025 23:38:21 - INFO - modules.trainer_AllinOne -   [7/40] Step: 5000/6623, Training Loss: 0.18590.
+09/08/2025 23:39:06 - INFO - modules.trainer_AllinOne -   [7/40] Step: 6000/6623, Training Loss: 0.18578.
+09/08/2025 23:39:33 - INFO - modules.trainer_AllinOne -   [7/40] Start to evaluate in the validation set.
+09/08/2025 23:46:12 - INFO - modules.trainer_AllinOne -   	epoch          : 7
+09/08/2025 23:46:12 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.18604209229723295
+09/08/2025 23:46:12 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6491373157947157
+09/08/2025 23:46:12 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6130027326471541
+09/08/2025 23:46:12 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.5834676664855774
+09/08/2025 23:46:12 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.561265107616648
+09/08/2025 23:46:12 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.41087193523536814
+09/08/2025 23:46:12 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6219915874595192
+09/08/2025 23:46:15 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/08/2025 23:46:15 - INFO - modules.trainer_AllinOne -   [8/40] Start to train in the training set.
+09/08/2025 23:46:15 - INFO - modules.trainer_AllinOne -   [8/40] Step: 0/6623, Training Loss: 0.83110.
+09/08/2025 23:46:59 - INFO - modules.trainer_AllinOne -   [8/40] Step: 1000/6623, Training Loss: 0.17382.
+09/08/2025 23:47:42 - INFO - modules.trainer_AllinOne -   [8/40] Step: 2000/6623, Training Loss: 0.17766.
+09/08/2025 23:48:27 - INFO - modules.trainer_AllinOne -   [8/40] Step: 3000/6623, Training Loss: 0.17666.
+09/08/2025 23:49:11 - INFO - modules.trainer_AllinOne -   [8/40] Step: 4000/6623, Training Loss: 0.17815.
+09/08/2025 23:49:54 - INFO - modules.trainer_AllinOne -   [8/40] Step: 5000/6623, Training Loss: 0.18144.
+09/08/2025 23:50:38 - INFO - modules.trainer_AllinOne -   [8/40] Step: 6000/6623, Training Loss: 0.18006.
+09/08/2025 23:51:06 - INFO - modules.trainer_AllinOne -   [8/40] Start to evaluate in the validation set.
+09/08/2025 23:57:46 - INFO - modules.trainer_AllinOne -   	epoch          : 8
+09/08/2025 23:57:46 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.17909891475136874
+09/08/2025 23:57:46 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6939341931061366
+09/08/2025 23:57:46 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6580801074020802
+09/08/2025 23:57:46 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6258223083904236
+09/08/2025 23:57:46 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.600481786413375
+09/08/2025 23:57:46 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4331900080885935
+09/08/2025 23:57:46 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6729301805257735
+09/08/2025 23:57:48 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/08/2025 23:57:50 - INFO - modules.trainer_AllinOne -   Saving new best model: model_best_epoch8.pth ...
+09/08/2025 23:57:50 - INFO - modules.trainer_AllinOne -   [9/40] Start to train in the training set.
+09/08/2025 23:57:51 - INFO - modules.trainer_AllinOne -   [9/40] Step: 0/6623, Training Loss: 0.14391.
+09/08/2025 23:58:34 - INFO - modules.trainer_AllinOne -   [9/40] Step: 1000/6623, Training Loss: 0.16695.
+09/08/2025 23:59:18 - INFO - modules.trainer_AllinOne -   [9/40] Step: 2000/6623, Training Loss: 0.16331.
+09/09/2025 00:00:02 - INFO - modules.trainer_AllinOne -   [9/40] Step: 3000/6623, Training Loss: 0.16443.
+09/09/2025 00:00:46 - INFO - modules.trainer_AllinOne -   [9/40] Step: 4000/6623, Training Loss: 0.16770.
+09/09/2025 00:01:29 - INFO - modules.trainer_AllinOne -   [9/40] Step: 5000/6623, Training Loss: 0.17036.
+09/09/2025 00:02:13 - INFO - modules.trainer_AllinOne -   [9/40] Step: 6000/6623, Training Loss: 0.17055.
+09/09/2025 00:02:40 - INFO - modules.trainer_AllinOne -   [9/40] Start to evaluate in the validation set.
+09/09/2025 00:09:18 - INFO - modules.trainer_AllinOne -   	epoch          : 9
+09/09/2025 00:09:18 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.1712337917116433
+09/09/2025 00:09:18 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6532794123212484
+09/09/2025 00:09:18 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.616341469822058
+09/09/2025 00:09:18 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.5873173329309808
+09/09/2025 00:09:18 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5648395411006865
+09/09/2025 00:09:18 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.40937864860191203
+09/09/2025 00:09:18 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6183685781467365
+09/09/2025 00:09:20 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 00:09:20 - INFO - modules.trainer_AllinOne -   [10/40] Start to train in the training set.
+09/09/2025 00:09:21 - INFO - modules.trainer_AllinOne -   [10/40] Step: 0/6623, Training Loss: 0.04181.
+09/09/2025 00:10:05 - INFO - modules.trainer_AllinOne -   [10/40] Step: 1000/6623, Training Loss: 0.16138.
+09/09/2025 00:10:48 - INFO - modules.trainer_AllinOne -   [10/40] Step: 2000/6623, Training Loss: 0.16202.
+09/09/2025 00:11:31 - INFO - modules.trainer_AllinOne -   [10/40] Step: 3000/6623, Training Loss: 0.16331.
+09/09/2025 00:12:15 - INFO - modules.trainer_AllinOne -   [10/40] Step: 4000/6623, Training Loss: 0.16619.
+09/09/2025 00:12:58 - INFO - modules.trainer_AllinOne -   [10/40] Step: 5000/6623, Training Loss: 0.16525.
+09/09/2025 00:13:42 - INFO - modules.trainer_AllinOne -   [10/40] Step: 6000/6623, Training Loss: 0.16794.
+09/09/2025 00:14:10 - INFO - modules.trainer_AllinOne -   [10/40] Start to evaluate in the validation set.
+09/09/2025 00:20:49 - INFO - modules.trainer_AllinOne -   	epoch          : 10
+09/09/2025 00:20:49 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.16798154953845928
+09/09/2025 00:20:49 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6242608058206476
+09/09/2025 00:20:49 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.5890594364611702
+09/09/2025 00:20:49 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.5587425325189562
+09/09/2025 00:20:49 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5352703544302597
+09/09/2025 00:20:49 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.39609911198926073
+09/09/2025 00:20:49 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6421416789959047
+09/09/2025 00:20:51 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 00:20:51 - INFO - modules.trainer_AllinOne -   [11/40] Start to train in the training set.
+09/09/2025 00:20:52 - INFO - modules.trainer_AllinOne -   [11/40] Step: 0/6623, Training Loss: 0.08121.
+09/09/2025 00:21:36 - INFO - modules.trainer_AllinOne -   [11/40] Step: 1000/6623, Training Loss: 0.15667.
+09/09/2025 00:22:19 - INFO - modules.trainer_AllinOne -   [11/40] Step: 2000/6623, Training Loss: 0.15284.
+09/09/2025 00:23:03 - INFO - modules.trainer_AllinOne -   [11/40] Step: 3000/6623, Training Loss: 0.15095.
+09/09/2025 00:23:47 - INFO - modules.trainer_AllinOne -   [11/40] Step: 4000/6623, Training Loss: 0.15121.
+09/09/2025 00:24:31 - INFO - modules.trainer_AllinOne -   [11/40] Step: 5000/6623, Training Loss: 0.15095.
+09/09/2025 00:25:14 - INFO - modules.trainer_AllinOne -   [11/40] Step: 6000/6623, Training Loss: 0.15087.
+09/09/2025 00:25:42 - INFO - modules.trainer_AllinOne -   [11/40] Start to evaluate in the validation set.
+09/09/2025 00:32:21 - INFO - modules.trainer_AllinOne -   	epoch          : 11
+09/09/2025 00:32:21 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.1511456867551401
+09/09/2025 00:32:21 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6739342803900034
+09/09/2025 00:32:21 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6414359648767544
+09/09/2025 00:32:21 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6112300637388182
+09/09/2025 00:32:21 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5869021155906773
+09/09/2025 00:32:21 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.42844384568967
+09/09/2025 00:32:21 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6818615707327033
+09/09/2025 00:32:24 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 00:32:24 - INFO - modules.trainer_AllinOne -   [12/40] Start to train in the training set.
+09/09/2025 00:32:24 - INFO - modules.trainer_AllinOne -   [12/40] Step: 0/6623, Training Loss: 0.05425.
+09/09/2025 00:33:09 - INFO - modules.trainer_AllinOne -   [12/40] Step: 1000/6623, Training Loss: 0.13387.
+09/09/2025 00:33:53 - INFO - modules.trainer_AllinOne -   [12/40] Step: 2000/6623, Training Loss: 0.13728.
+09/09/2025 00:34:37 - INFO - modules.trainer_AllinOne -   [12/40] Step: 3000/6623, Training Loss: 0.14062.
+09/09/2025 00:35:20 - INFO - modules.trainer_AllinOne -   [12/40] Step: 4000/6623, Training Loss: 0.14296.
+09/09/2025 00:36:04 - INFO - modules.trainer_AllinOne -   [12/40] Step: 5000/6623, Training Loss: 0.14443.
+09/09/2025 00:36:48 - INFO - modules.trainer_AllinOne -   [12/40] Step: 6000/6623, Training Loss: 0.14454.
+09/09/2025 00:37:15 - INFO - modules.trainer_AllinOne -   [12/40] Start to evaluate in the validation set.
+09/09/2025 00:43:53 - INFO - modules.trainer_AllinOne -   	epoch          : 12
+09/09/2025 00:43:53 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.14523354215175432
+09/09/2025 00:43:53 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6662011976698824
+09/09/2025 00:43:53 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6329841708897719
+09/09/2025 00:43:53 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6041858116914773
+09/09/2025 00:43:53 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5820121059205438
+09/09/2025 00:43:53 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4211562258046759
+09/09/2025 00:43:53 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6605453584371257
+09/09/2025 00:43:55 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 00:43:55 - INFO - modules.trainer_AllinOne -   [13/40] Start to train in the training set.
+09/09/2025 00:43:56 - INFO - modules.trainer_AllinOne -   [13/40] Step: 0/6623, Training Loss: 0.06367.
+09/09/2025 00:44:40 - INFO - modules.trainer_AllinOne -   [13/40] Step: 1000/6623, Training Loss: 0.13353.
+09/09/2025 00:45:23 - INFO - modules.trainer_AllinOne -   [13/40] Step: 2000/6623, Training Loss: 0.14007.
+09/09/2025 00:46:07 - INFO - modules.trainer_AllinOne -   [13/40] Step: 3000/6623, Training Loss: 0.14101.
+09/09/2025 00:46:50 - INFO - modules.trainer_AllinOne -   [13/40] Step: 4000/6623, Training Loss: 0.14063.
+09/09/2025 00:47:34 - INFO - modules.trainer_AllinOne -   [13/40] Step: 5000/6623, Training Loss: 0.14308.
+09/09/2025 00:48:18 - INFO - modules.trainer_AllinOne -   [13/40] Step: 6000/6623, Training Loss: 0.14464.
+09/09/2025 00:48:45 - INFO - modules.trainer_AllinOne -   [13/40] Start to evaluate in the validation set.
+09/09/2025 00:55:26 - INFO - modules.trainer_AllinOne -   	epoch          : 13
+09/09/2025 00:55:26 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.14438654753522007
+09/09/2025 00:55:26 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6873462103470545
+09/09/2025 00:55:26 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6533323782791467
+09/09/2025 00:55:26 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6233559684092772
+09/09/2025 00:55:26 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5997747795307017
+09/09/2025 00:55:26 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.42966756927235367
+09/09/2025 00:55:26 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6799048652720994
+09/09/2025 00:55:28 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 00:55:28 - INFO - modules.trainer_AllinOne -   [14/40] Start to train in the training set.
+09/09/2025 00:55:28 - INFO - modules.trainer_AllinOne -   [14/40] Step: 0/6623, Training Loss: 0.16669.
+09/09/2025 00:56:12 - INFO - modules.trainer_AllinOne -   [14/40] Step: 1000/6623, Training Loss: 0.14099.
+09/09/2025 00:56:55 - INFO - modules.trainer_AllinOne -   [14/40] Step: 2000/6623, Training Loss: 0.13752.
+09/09/2025 00:57:39 - INFO - modules.trainer_AllinOne -   [14/40] Step: 3000/6623, Training Loss: 0.13758.
+09/09/2025 00:58:24 - INFO - modules.trainer_AllinOne -   [14/40] Step: 4000/6623, Training Loss: 0.13733.
+09/09/2025 00:59:08 - INFO - modules.trainer_AllinOne -   [14/40] Step: 5000/6623, Training Loss: 0.13774.
+09/09/2025 00:59:52 - INFO - modules.trainer_AllinOne -   [14/40] Step: 6000/6623, Training Loss: 0.13884.
+09/09/2025 01:00:19 - INFO - modules.trainer_AllinOne -   [14/40] Start to evaluate in the validation set.
+09/09/2025 01:06:58 - INFO - modules.trainer_AllinOne -   	epoch          : 14
+09/09/2025 01:06:58 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.139784382102176
+09/09/2025 01:06:58 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6751024136053411
+09/09/2025 01:06:58 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6381696782681745
+09/09/2025 01:06:58 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.605634706605661
+09/09/2025 01:06:58 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5798409597556358
+09/09/2025 01:06:58 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.42745448120183266
+09/09/2025 01:06:58 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6787170744351894
+09/09/2025 01:07:01 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 01:07:01 - INFO - modules.trainer_AllinOne -   [15/40] Start to train in the training set.
+09/09/2025 01:07:01 - INFO - modules.trainer_AllinOne -   [15/40] Step: 0/6623, Training Loss: 0.02758.
+09/09/2025 01:07:44 - INFO - modules.trainer_AllinOne -   [15/40] Step: 1000/6623, Training Loss: 0.13736.
+09/09/2025 01:08:28 - INFO - modules.trainer_AllinOne -   [15/40] Step: 2000/6623, Training Loss: 0.13518.
+09/09/2025 01:09:11 - INFO - modules.trainer_AllinOne -   [15/40] Step: 3000/6623, Training Loss: 0.13725.
+09/09/2025 01:09:56 - INFO - modules.trainer_AllinOne -   [15/40] Step: 4000/6623, Training Loss: 0.14021.
+09/09/2025 01:10:39 - INFO - modules.trainer_AllinOne -   [15/40] Step: 5000/6623, Training Loss: 0.13917.
+09/09/2025 01:11:23 - INFO - modules.trainer_AllinOne -   [15/40] Step: 6000/6623, Training Loss: 0.13901.
+09/09/2025 01:11:50 - INFO - modules.trainer_AllinOne -   [15/40] Start to evaluate in the validation set.
+09/09/2025 01:18:30 - INFO - modules.trainer_AllinOne -   	epoch          : 15
+09/09/2025 01:18:30 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.13901674568464642
+09/09/2025 01:18:30 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6501181549284362
+09/09/2025 01:18:30 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6150070128137404
+09/09/2025 01:18:30 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.5866489335065601
+09/09/2025 01:18:30 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5648487331403698
+09/09/2025 01:18:30 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.41482807123014304
+09/09/2025 01:18:30 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6537738198387091
+09/09/2025 01:18:32 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 01:18:32 - INFO - modules.trainer_AllinOne -   [16/40] Start to train in the training set.
+09/09/2025 01:18:32 - INFO - modules.trainer_AllinOne -   [16/40] Step: 0/6623, Training Loss: 0.06600.
+09/09/2025 01:19:15 - INFO - modules.trainer_AllinOne -   [16/40] Step: 1000/6623, Training Loss: 0.13571.
+09/09/2025 01:19:59 - INFO - modules.trainer_AllinOne -   [16/40] Step: 2000/6623, Training Loss: 0.13498.
+09/09/2025 01:20:43 - INFO - modules.trainer_AllinOne -   [16/40] Step: 3000/6623, Training Loss: 0.13135.
+09/09/2025 01:21:27 - INFO - modules.trainer_AllinOne -   [16/40] Step: 4000/6623, Training Loss: 0.13296.
+09/09/2025 01:22:11 - INFO - modules.trainer_AllinOne -   [16/40] Step: 5000/6623, Training Loss: 0.13413.
+09/09/2025 01:22:55 - INFO - modules.trainer_AllinOne -   [16/40] Step: 6000/6623, Training Loss: 0.13486.
+09/09/2025 01:23:22 - INFO - modules.trainer_AllinOne -   [16/40] Start to evaluate in the validation set.
+09/09/2025 01:30:04 - INFO - modules.trainer_AllinOne -   	epoch          : 16
+09/09/2025 01:30:04 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.13538757973912552
+09/09/2025 01:30:04 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6960737915922287
+09/09/2025 01:30:04 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6647891765249054
+09/09/2025 01:30:04 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6373023970903849
+09/09/2025 01:30:04 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6163838881339591
+09/09/2025 01:30:04 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.43554924110764054
+09/09/2025 01:30:04 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.691802421237564
+09/09/2025 01:30:06 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 01:30:08 - INFO - modules.trainer_AllinOne -   Saving new best model: model_best_epoch16.pth ...
+09/09/2025 01:30:08 - INFO - modules.trainer_AllinOne -   [17/40] Start to train in the training set.
+09/09/2025 01:30:08 - INFO - modules.trainer_AllinOne -   [17/40] Step: 0/6623, Training Loss: 0.17910.
+09/09/2025 01:30:52 - INFO - modules.trainer_AllinOne -   [17/40] Step: 1000/6623, Training Loss: 0.12512.
+09/09/2025 01:31:36 - INFO - modules.trainer_AllinOne -   [17/40] Step: 2000/6623, Training Loss: 0.12873.
+09/09/2025 01:32:20 - INFO - modules.trainer_AllinOne -   [17/40] Step: 3000/6623, Training Loss: 0.12912.
+09/09/2025 01:33:03 - INFO - modules.trainer_AllinOne -   [17/40] Step: 4000/6623, Training Loss: 0.13000.
+09/09/2025 01:33:47 - INFO - modules.trainer_AllinOne -   [17/40] Step: 5000/6623, Training Loss: 0.13003.
+09/09/2025 01:34:31 - INFO - modules.trainer_AllinOne -   [17/40] Step: 6000/6623, Training Loss: 0.13199.
+09/09/2025 01:34:58 - INFO - modules.trainer_AllinOne -   [17/40] Start to evaluate in the validation set.
+09/09/2025 01:41:39 - INFO - modules.trainer_AllinOne -   	epoch          : 17
+09/09/2025 01:41:39 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.13265787585221553
+09/09/2025 01:41:39 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.7160971501491166
+09/09/2025 01:41:39 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.683536212411965
+09/09/2025 01:41:39 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6555622853419155
+09/09/2025 01:41:39 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6343112227861553
+09/09/2025 01:41:39 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.45431823480265093
+09/09/2025 01:41:39 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.69564677324293
+09/09/2025 01:41:42 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 01:41:44 - INFO - modules.trainer_AllinOne -   Saving new best model: model_best_epoch17.pth ...
+09/09/2025 01:41:44 - INFO - modules.trainer_AllinOne -   [18/40] Start to train in the training set.
+09/09/2025 01:41:44 - INFO - modules.trainer_AllinOne -   [18/40] Step: 0/6623, Training Loss: 0.04590.
+09/09/2025 01:42:28 - INFO - modules.trainer_AllinOne -   [18/40] Step: 1000/6623, Training Loss: 0.13367.
+09/09/2025 01:43:11 - INFO - modules.trainer_AllinOne -   [18/40] Step: 2000/6623, Training Loss: 0.12729.
+09/09/2025 01:43:55 - INFO - modules.trainer_AllinOne -   [18/40] Step: 3000/6623, Training Loss: 0.13016.
+09/09/2025 01:44:39 - INFO - modules.trainer_AllinOne -   [18/40] Step: 4000/6623, Training Loss: 0.13048.
+09/09/2025 01:45:23 - INFO - modules.trainer_AllinOne -   [18/40] Step: 5000/6623, Training Loss: 0.13047.
+09/09/2025 01:46:07 - INFO - modules.trainer_AllinOne -   [18/40] Step: 6000/6623, Training Loss: 0.13096.
+09/09/2025 01:46:34 - INFO - modules.trainer_AllinOne -   [18/40] Start to evaluate in the validation set.
+09/09/2025 01:53:15 - INFO - modules.trainer_AllinOne -   	epoch          : 18
+09/09/2025 01:53:15 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.1318543278635113
+09/09/2025 01:53:15 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6293437558015226
+09/09/2025 01:53:15 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6000127798078249
+09/09/2025 01:53:15 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.5774656371473302
+09/09/2025 01:53:15 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5608124580283108
+09/09/2025 01:53:15 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.40089112712665803
+09/09/2025 01:53:15 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.643675686134312
+09/09/2025 01:53:17 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 01:53:17 - INFO - modules.trainer_AllinOne -   [19/40] Start to train in the training set.
+09/09/2025 01:53:18 - INFO - modules.trainer_AllinOne -   [19/40] Step: 0/6623, Training Loss: 0.18444.
+09/09/2025 01:54:01 - INFO - modules.trainer_AllinOne -   [19/40] Step: 1000/6623, Training Loss: 0.11703.
+09/09/2025 01:54:44 - INFO - modules.trainer_AllinOne -   [19/40] Step: 2000/6623, Training Loss: 0.12232.
+09/09/2025 01:55:28 - INFO - modules.trainer_AllinOne -   [19/40] Step: 3000/6623, Training Loss: 0.12395.
+09/09/2025 01:56:11 - INFO - modules.trainer_AllinOne -   [19/40] Step: 4000/6623, Training Loss: 0.12339.
+09/09/2025 01:56:55 - INFO - modules.trainer_AllinOne -   [19/40] Step: 5000/6623, Training Loss: 0.12383.
+09/09/2025 01:57:38 - INFO - modules.trainer_AllinOne -   [19/40] Step: 6000/6623, Training Loss: 0.12559.
+09/09/2025 01:58:06 - INFO - modules.trainer_AllinOne -   [19/40] Start to evaluate in the validation set.
+09/09/2025 02:04:46 - INFO - modules.trainer_AllinOne -   	epoch          : 19
+09/09/2025 02:04:46 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.12644066730373707
+09/09/2025 02:04:46 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6826454046517134
+09/09/2025 02:04:46 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6480214027195677
+09/09/2025 02:04:46 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6189342948928497
+09/09/2025 02:04:46 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5967821063657851
+09/09/2025 02:04:46 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4245960566349479
+09/09/2025 02:04:46 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6505786225932519
+09/09/2025 02:04:48 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 02:04:48 - INFO - modules.trainer_AllinOne -   [20/40] Start to train in the training set.
+09/09/2025 02:04:48 - INFO - modules.trainer_AllinOne -   [20/40] Step: 0/6623, Training Loss: 0.02750.
+09/09/2025 02:05:32 - INFO - modules.trainer_AllinOne -   [20/40] Step: 1000/6623, Training Loss: 0.12487.
+09/09/2025 02:06:16 - INFO - modules.trainer_AllinOne -   [20/40] Step: 2000/6623, Training Loss: 0.12325.
+09/09/2025 02:07:00 - INFO - modules.trainer_AllinOne -   [20/40] Step: 3000/6623, Training Loss: 0.12124.
+09/09/2025 02:07:44 - INFO - modules.trainer_AllinOne -   [20/40] Step: 4000/6623, Training Loss: 0.12187.
+09/09/2025 02:08:28 - INFO - modules.trainer_AllinOne -   [20/40] Step: 5000/6623, Training Loss: 0.12322.
+09/09/2025 02:09:11 - INFO - modules.trainer_AllinOne -   [20/40] Step: 6000/6623, Training Loss: 0.12405.
+09/09/2025 02:09:38 - INFO - modules.trainer_AllinOne -   [20/40] Start to evaluate in the validation set.
+09/09/2025 02:16:19 - INFO - modules.trainer_AllinOne -   	epoch          : 20
+09/09/2025 02:16:19 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.12329151909742751
+09/09/2025 02:16:19 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6794194142369848
+09/09/2025 02:16:19 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6437375358519576
+09/09/2025 02:16:19 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6145784909019556
+09/09/2025 02:16:19 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5915700065440748
+09/09/2025 02:16:19 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.42002371022292795
+09/09/2025 02:16:19 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6495823459616162
+09/09/2025 02:16:22 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 02:16:22 - INFO - modules.trainer_AllinOne -   [21/40] Start to train in the training set.
+09/09/2025 02:16:22 - INFO - modules.trainer_AllinOne -   [21/40] Step: 0/6623, Training Loss: 0.04565.
+09/09/2025 02:17:05 - INFO - modules.trainer_AllinOne -   [21/40] Step: 1000/6623, Training Loss: 0.10876.
+09/09/2025 02:17:49 - INFO - modules.trainer_AllinOne -   [21/40] Step: 2000/6623, Training Loss: 0.11153.
+09/09/2025 02:18:33 - INFO - modules.trainer_AllinOne -   [21/40] Step: 3000/6623, Training Loss: 0.11010.
+09/09/2025 02:19:17 - INFO - modules.trainer_AllinOne -   [21/40] Step: 4000/6623, Training Loss: 0.11010.
+09/09/2025 02:20:02 - INFO - modules.trainer_AllinOne -   [21/40] Step: 5000/6623, Training Loss: 0.11087.
+09/09/2025 02:20:46 - INFO - modules.trainer_AllinOne -   [21/40] Step: 6000/6623, Training Loss: 0.11048.
+09/09/2025 02:21:13 - INFO - modules.trainer_AllinOne -   [21/40] Start to evaluate in the validation set.
+09/09/2025 02:27:54 - INFO - modules.trainer_AllinOne -   	epoch          : 21
+09/09/2025 02:27:54 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.11155862158031883
+09/09/2025 02:27:54 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.7038440239697229
+09/09/2025 02:27:54 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6712864467162717
+09/09/2025 02:27:54 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6434349478949202
+09/09/2025 02:27:54 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6208854829667717
+09/09/2025 02:27:54 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4394287037670625
+09/09/2025 02:27:54 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6866452014016927
+09/09/2025 02:27:56 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 02:27:56 - INFO - modules.trainer_AllinOne -   [22/40] Start to train in the training set.
+09/09/2025 02:27:56 - INFO - modules.trainer_AllinOne -   [22/40] Step: 0/6623, Training Loss: 0.07038.
+09/09/2025 02:28:40 - INFO - modules.trainer_AllinOne -   [22/40] Step: 1000/6623, Training Loss: 0.10572.
+09/09/2025 02:29:24 - INFO - modules.trainer_AllinOne -   [22/40] Step: 2000/6623, Training Loss: 0.10319.
+09/09/2025 02:30:07 - INFO - modules.trainer_AllinOne -   [22/40] Step: 3000/6623, Training Loss: 0.10513.
+09/09/2025 02:30:51 - INFO - modules.trainer_AllinOne -   [22/40] Step: 4000/6623, Training Loss: 0.10663.
+09/09/2025 02:31:35 - INFO - modules.trainer_AllinOne -   [22/40] Step: 5000/6623, Training Loss: 0.10766.
+09/09/2025 02:32:19 - INFO - modules.trainer_AllinOne -   [22/40] Step: 6000/6623, Training Loss: 0.10830.
+09/09/2025 02:32:47 - INFO - modules.trainer_AllinOne -   [22/40] Start to evaluate in the validation set.
+09/09/2025 02:39:28 - INFO - modules.trainer_AllinOne -   	epoch          : 22
+09/09/2025 02:39:28 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.10808146349609668
+09/09/2025 02:39:28 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6704641209232853
+09/09/2025 02:39:28 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6369300173366971
+09/09/2025 02:39:28 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.607494949877081
+09/09/2025 02:39:28 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5842222109288104
+09/09/2025 02:39:28 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.42491637145417616
+09/09/2025 02:39:28 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6656808277369727
+09/09/2025 02:39:30 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 02:39:30 - INFO - modules.trainer_AllinOne -   [23/40] Start to train in the training set.
+09/09/2025 02:39:30 - INFO - modules.trainer_AllinOne -   [23/40] Step: 0/6623, Training Loss: 0.24395.
+09/09/2025 02:40:14 - INFO - modules.trainer_AllinOne -   [23/40] Step: 1000/6623, Training Loss: 0.10758.
+09/09/2025 02:40:59 - INFO - modules.trainer_AllinOne -   [23/40] Step: 2000/6623, Training Loss: 0.10760.
+09/09/2025 02:41:43 - INFO - modules.trainer_AllinOne -   [23/40] Step: 3000/6623, Training Loss: 0.10891.
+09/09/2025 02:42:26 - INFO - modules.trainer_AllinOne -   [23/40] Step: 4000/6623, Training Loss: 0.10908.
+09/09/2025 02:43:10 - INFO - modules.trainer_AllinOne -   [23/40] Step: 5000/6623, Training Loss: 0.10791.
+09/09/2025 02:43:53 - INFO - modules.trainer_AllinOne -   [23/40] Step: 6000/6623, Training Loss: 0.10805.
+09/09/2025 02:44:21 - INFO - modules.trainer_AllinOne -   [23/40] Start to evaluate in the validation set.
+09/09/2025 02:51:02 - INFO - modules.trainer_AllinOne -   	epoch          : 23
+09/09/2025 02:51:02 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.10854151551048101
+09/09/2025 02:51:02 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6873154448257911
+09/09/2025 02:51:02 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6552514289220476
+09/09/2025 02:51:02 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6278866602657038
+09/09/2025 02:51:02 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6054174183007591
+09/09/2025 02:51:02 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4312185340693409
+09/09/2025 02:51:02 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.686060667046317
+09/09/2025 02:51:05 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 02:51:05 - INFO - modules.trainer_AllinOne -   [24/40] Start to train in the training set.
+09/09/2025 02:51:05 - INFO - modules.trainer_AllinOne -   [24/40] Step: 0/6623, Training Loss: 0.51368.
+09/09/2025 02:51:49 - INFO - modules.trainer_AllinOne -   [24/40] Step: 1000/6623, Training Loss: 0.09863.
+09/09/2025 02:52:34 - INFO - modules.trainer_AllinOne -   [24/40] Step: 2000/6623, Training Loss: 0.10226.
+09/09/2025 02:53:18 - INFO - modules.trainer_AllinOne -   [24/40] Step: 3000/6623, Training Loss: 0.10321.
+09/09/2025 02:54:03 - INFO - modules.trainer_AllinOne -   [24/40] Step: 4000/6623, Training Loss: 0.10202.
+09/09/2025 02:54:46 - INFO - modules.trainer_AllinOne -   [24/40] Step: 5000/6623, Training Loss: 0.10231.
+09/09/2025 02:55:30 - INFO - modules.trainer_AllinOne -   [24/40] Step: 6000/6623, Training Loss: 0.10375.
+09/09/2025 02:55:57 - INFO - modules.trainer_AllinOne -   [24/40] Start to evaluate in the validation set.
+09/09/2025 03:02:37 - INFO - modules.trainer_AllinOne -   	epoch          : 24
+09/09/2025 03:02:37 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.10431484495383096
+09/09/2025 03:02:37 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6588953682388387
+09/09/2025 03:02:37 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6300335708135609
+09/09/2025 03:02:37 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6062276412710157
+09/09/2025 03:02:37 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5884015198326408
+09/09/2025 03:02:37 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4233558001866869
+09/09/2025 03:02:37 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6603059412256157
+09/09/2025 03:02:39 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 03:02:39 - INFO - modules.trainer_AllinOne -   [25/40] Start to train in the training set.
+09/09/2025 03:02:39 - INFO - modules.trainer_AllinOne -   [25/40] Step: 0/6623, Training Loss: 0.20403.
+09/09/2025 03:03:24 - INFO - modules.trainer_AllinOne -   [25/40] Step: 1000/6623, Training Loss: 0.09824.
+09/09/2025 03:04:08 - INFO - modules.trainer_AllinOne -   [25/40] Step: 2000/6623, Training Loss: 0.09523.
+09/09/2025 03:04:52 - INFO - modules.trainer_AllinOne -   [25/40] Step: 3000/6623, Training Loss: 0.09625.
+09/09/2025 03:05:36 - INFO - modules.trainer_AllinOne -   [25/40] Step: 4000/6623, Training Loss: 0.09928.
+09/09/2025 03:06:20 - INFO - modules.trainer_AllinOne -   [25/40] Step: 5000/6623, Training Loss: 0.10141.
+09/09/2025 03:07:04 - INFO - modules.trainer_AllinOne -   [25/40] Step: 6000/6623, Training Loss: 0.10361.
+09/09/2025 03:07:31 - INFO - modules.trainer_AllinOne -   [25/40] Start to evaluate in the validation set.
+09/09/2025 03:14:11 - INFO - modules.trainer_AllinOne -   	epoch          : 25
+09/09/2025 03:14:11 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.10485331905938766
+09/09/2025 03:14:11 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6875627556215693
+09/09/2025 03:14:11 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.654111584344144
+09/09/2025 03:14:11 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6257245393408413
+09/09/2025 03:14:11 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6043451453755438
+09/09/2025 03:14:11 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.430057217061265
+09/09/2025 03:14:11 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6711995039494797
+09/09/2025 03:14:14 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 03:14:14 - INFO - modules.trainer_AllinOne -   [26/40] Start to train in the training set.
+09/09/2025 03:14:14 - INFO - modules.trainer_AllinOne -   [26/40] Step: 0/6623, Training Loss: 0.07882.
+09/09/2025 03:14:58 - INFO - modules.trainer_AllinOne -   [26/40] Step: 1000/6623, Training Loss: 0.09499.
+09/09/2025 03:15:42 - INFO - modules.trainer_AllinOne -   [26/40] Step: 2000/6623, Training Loss: 0.09602.
+09/09/2025 03:16:25 - INFO - modules.trainer_AllinOne -   [26/40] Step: 3000/6623, Training Loss: 0.10083.
+09/09/2025 03:17:09 - INFO - modules.trainer_AllinOne -   [26/40] Step: 4000/6623, Training Loss: 0.10047.
+09/09/2025 03:17:52 - INFO - modules.trainer_AllinOne -   [26/40] Step: 5000/6623, Training Loss: 0.10182.
+09/09/2025 03:18:36 - INFO - modules.trainer_AllinOne -   [26/40] Step: 6000/6623, Training Loss: 0.10188.
+09/09/2025 03:19:03 - INFO - modules.trainer_AllinOne -   [26/40] Start to evaluate in the validation set.
+09/09/2025 03:25:42 - INFO - modules.trainer_AllinOne -   	epoch          : 26
+09/09/2025 03:25:42 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.10242821688692837
+09/09/2025 03:25:42 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6752126930430006
+09/09/2025 03:25:42 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6418355357748001
+09/09/2025 03:25:42 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6142178334815133
+09/09/2025 03:25:42 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5927703982939744
+09/09/2025 03:25:42 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4212397339197414
+09/09/2025 03:25:42 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6606003654473032
+09/09/2025 03:25:45 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 03:25:45 - INFO - modules.trainer_AllinOne -   [27/40] Start to train in the training set.
+09/09/2025 03:25:45 - INFO - modules.trainer_AllinOne -   [27/40] Step: 0/6623, Training Loss: 0.09375.
+09/09/2025 03:26:30 - INFO - modules.trainer_AllinOne -   [27/40] Step: 1000/6623, Training Loss: 0.09177.
+09/09/2025 03:27:13 - INFO - modules.trainer_AllinOne -   [27/40] Step: 2000/6623, Training Loss: 0.09577.
+09/09/2025 03:27:57 - INFO - modules.trainer_AllinOne -   [27/40] Step: 3000/6623, Training Loss: 0.09907.
+09/09/2025 03:28:40 - INFO - modules.trainer_AllinOne -   [27/40] Step: 4000/6623, Training Loss: 0.09839.
+09/09/2025 03:29:24 - INFO - modules.trainer_AllinOne -   [27/40] Step: 5000/6623, Training Loss: 0.09836.
+09/09/2025 03:30:08 - INFO - modules.trainer_AllinOne -   [27/40] Step: 6000/6623, Training Loss: 0.10002.
+09/09/2025 03:30:35 - INFO - modules.trainer_AllinOne -   [27/40] Start to evaluate in the validation set.
+09/09/2025 03:37:14 - INFO - modules.trainer_AllinOne -   	epoch          : 27
+09/09/2025 03:37:14 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.10076276378748468
+09/09/2025 03:37:14 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6658360225204196
+09/09/2025 03:37:14 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6342343112521127
+09/09/2025 03:37:14 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6085193923579909
+09/09/2025 03:37:14 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5892563668659878
+09/09/2025 03:37:14 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.42306626585837187
+09/09/2025 03:37:14 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6581756862335965
+09/09/2025 03:37:16 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 03:37:16 - INFO - modules.trainer_AllinOne -   [28/40] Start to train in the training set.
+09/09/2025 03:37:16 - INFO - modules.trainer_AllinOne -   [28/40] Step: 0/6623, Training Loss: 0.08018.
+09/09/2025 03:38:00 - INFO - modules.trainer_AllinOne -   [28/40] Step: 1000/6623, Training Loss: 0.09082.
+09/09/2025 03:38:44 - INFO - modules.trainer_AllinOne -   [28/40] Step: 2000/6623, Training Loss: 0.09163.
+09/09/2025 03:39:27 - INFO - modules.trainer_AllinOne -   [28/40] Step: 3000/6623, Training Loss: 0.09413.
+09/09/2025 03:40:11 - INFO - modules.trainer_AllinOne -   [28/40] Step: 4000/6623, Training Loss: 0.09625.
+09/09/2025 03:40:55 - INFO - modules.trainer_AllinOne -   [28/40] Step: 5000/6623, Training Loss: 0.09677.
+09/09/2025 03:41:38 - INFO - modules.trainer_AllinOne -   [28/40] Step: 6000/6623, Training Loss: 0.09825.
+09/09/2025 03:42:06 - INFO - modules.trainer_AllinOne -   [28/40] Start to evaluate in the validation set.
+09/09/2025 03:48:47 - INFO - modules.trainer_AllinOne -   	epoch          : 28
+09/09/2025 03:48:47 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.09862515266132955
+09/09/2025 03:48:47 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6919209995039394
+09/09/2025 03:48:47 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6582518150066458
+09/09/2025 03:48:47 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6307909672375257
+09/09/2025 03:48:47 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6096379985044225
+09/09/2025 03:48:47 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.43324762746565443
+09/09/2025 03:48:47 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6706698716180446
+09/09/2025 03:48:49 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 03:48:49 - INFO - modules.trainer_AllinOne -   [29/40] Start to train in the training set.
+09/09/2025 03:48:49 - INFO - modules.trainer_AllinOne -   [29/40] Step: 0/6623, Training Loss: 0.05304.
+09/09/2025 03:49:33 - INFO - modules.trainer_AllinOne -   [29/40] Step: 1000/6623, Training Loss: 0.09434.
+09/09/2025 03:50:18 - INFO - modules.trainer_AllinOne -   [29/40] Step: 2000/6623, Training Loss: 0.09556.
+09/09/2025 03:51:02 - INFO - modules.trainer_AllinOne -   [29/40] Step: 3000/6623, Training Loss: 0.09676.
+09/09/2025 03:51:46 - INFO - modules.trainer_AllinOne -   [29/40] Step: 4000/6623, Training Loss: 0.09762.
+09/09/2025 03:52:29 - INFO - modules.trainer_AllinOne -   [29/40] Step: 5000/6623, Training Loss: 0.09752.
+09/09/2025 03:53:13 - INFO - modules.trainer_AllinOne -   [29/40] Step: 6000/6623, Training Loss: 0.09765.
+09/09/2025 03:53:41 - INFO - modules.trainer_AllinOne -   [29/40] Start to evaluate in the validation set.
+09/09/2025 04:00:21 - INFO - modules.trainer_AllinOne -   	epoch          : 29
+09/09/2025 04:00:21 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.09722729625654901
+09/09/2025 04:00:21 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6934781772677393
+09/09/2025 04:00:21 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.662331227404457
+09/09/2025 04:00:21 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6358009737329549
+09/09/2025 04:00:21 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6158692607163198
+09/09/2025 04:00:21 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.44001046126169985
+09/09/2025 04:00:21 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6841976612085869
+09/09/2025 04:00:23 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 04:00:23 - INFO - modules.trainer_AllinOne -   [30/40] Start to train in the training set.
+09/09/2025 04:00:23 - INFO - modules.trainer_AllinOne -   [30/40] Step: 0/6623, Training Loss: 0.07675.
+09/09/2025 04:01:07 - INFO - modules.trainer_AllinOne -   [30/40] Step: 1000/6623, Training Loss: 0.08900.
+09/09/2025 04:01:51 - INFO - modules.trainer_AllinOne -   [30/40] Step: 2000/6623, Training Loss: 0.09131.
+09/09/2025 04:02:34 - INFO - modules.trainer_AllinOne -   [30/40] Step: 3000/6623, Training Loss: 0.09187.
+09/09/2025 04:03:18 - INFO - modules.trainer_AllinOne -   [30/40] Step: 4000/6623, Training Loss: 0.09232.
+09/09/2025 04:04:01 - INFO - modules.trainer_AllinOne -   [30/40] Step: 5000/6623, Training Loss: 0.09474.
+09/09/2025 04:04:44 - INFO - modules.trainer_AllinOne -   [30/40] Step: 6000/6623, Training Loss: 0.09508.
+09/09/2025 04:05:12 - INFO - modules.trainer_AllinOne -   [30/40] Start to evaluate in the validation set.
+09/09/2025 04:11:52 - INFO - modules.trainer_AllinOne -   	epoch          : 30
+09/09/2025 04:11:52 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.0960317900541003
+09/09/2025 04:11:52 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6719416711657786
+09/09/2025 04:11:52 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6405465394987068
+09/09/2025 04:11:52 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6144635550513315
+09/09/2025 04:11:52 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5943190300825412
+09/09/2025 04:11:52 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.42826470211130796
+09/09/2025 04:11:52 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.667378659899381
+09/09/2025 04:11:55 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 04:11:55 - INFO - modules.trainer_AllinOne -   [31/40] Start to train in the training set.
+09/09/2025 04:11:55 - INFO - modules.trainer_AllinOne -   [31/40] Step: 0/6623, Training Loss: 0.00414.
+09/09/2025 04:12:38 - INFO - modules.trainer_AllinOne -   [31/40] Step: 1000/6623, Training Loss: 0.08676.
+09/09/2025 04:13:22 - INFO - modules.trainer_AllinOne -   [31/40] Step: 2000/6623, Training Loss: 0.08738.
+09/09/2025 04:14:06 - INFO - modules.trainer_AllinOne -   [31/40] Step: 3000/6623, Training Loss: 0.08487.
+09/09/2025 04:14:49 - INFO - modules.trainer_AllinOne -   [31/40] Step: 4000/6623, Training Loss: 0.08462.
+09/09/2025 04:15:33 - INFO - modules.trainer_AllinOne -   [31/40] Step: 5000/6623, Training Loss: 0.08480.
+09/09/2025 04:16:16 - INFO - modules.trainer_AllinOne -   [31/40] Step: 6000/6623, Training Loss: 0.08430.
+09/09/2025 04:16:43 - INFO - modules.trainer_AllinOne -   [31/40] Start to evaluate in the validation set.
+09/09/2025 04:23:25 - INFO - modules.trainer_AllinOne -   	epoch          : 31
+09/09/2025 04:23:25 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.08419893624447483
+09/09/2025 04:23:25 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6800340792448264
+09/09/2025 04:23:25 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6460780435191608
+09/09/2025 04:23:25 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6186653546510719
+09/09/2025 04:23:25 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5976212375828297
+09/09/2025 04:23:25 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4256718818246419
+09/09/2025 04:23:25 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6606066467061911
+09/09/2025 04:23:27 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 04:23:27 - INFO - modules.trainer_AllinOne -   [32/40] Start to train in the training set.
+09/09/2025 04:23:27 - INFO - modules.trainer_AllinOne -   [32/40] Step: 0/6623, Training Loss: 0.01179.
+09/09/2025 04:24:11 - INFO - modules.trainer_AllinOne -   [32/40] Step: 1000/6623, Training Loss: 0.07798.
+09/09/2025 04:24:55 - INFO - modules.trainer_AllinOne -   [32/40] Step: 2000/6623, Training Loss: 0.07967.
+09/09/2025 04:25:38 - INFO - modules.trainer_AllinOne -   [32/40] Step: 3000/6623, Training Loss: 0.07828.
+09/09/2025 04:26:22 - INFO - modules.trainer_AllinOne -   [32/40] Step: 4000/6623, Training Loss: 0.07928.
+09/09/2025 04:27:06 - INFO - modules.trainer_AllinOne -   [32/40] Step: 5000/6623, Training Loss: 0.07978.
+09/09/2025 04:27:50 - INFO - modules.trainer_AllinOne -   [32/40] Step: 6000/6623, Training Loss: 0.08157.
+09/09/2025 04:28:18 - INFO - modules.trainer_AllinOne -   [32/40] Start to evaluate in the validation set.
+09/09/2025 04:34:57 - INFO - modules.trainer_AllinOne -   	epoch          : 32
+09/09/2025 04:34:57 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.08194834211737523
+09/09/2025 04:34:57 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6712086803077397
+09/09/2025 04:34:57 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6384311301938833
+09/09/2025 04:34:57 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6122015726048148
+09/09/2025 04:34:57 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5915656476513423
+09/09/2025 04:34:57 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4211287013039483
+09/09/2025 04:34:57 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6519228723660753
+09/09/2025 04:35:00 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 04:35:00 - INFO - modules.trainer_AllinOne -   [33/40] Start to train in the training set.
+09/09/2025 04:35:00 - INFO - modules.trainer_AllinOne -   [33/40] Step: 0/6623, Training Loss: 0.13836.
+09/09/2025 04:35:44 - INFO - modules.trainer_AllinOne -   [33/40] Step: 1000/6623, Training Loss: 0.07822.
+09/09/2025 04:36:29 - INFO - modules.trainer_AllinOne -   [33/40] Step: 2000/6623, Training Loss: 0.07855.
+09/09/2025 04:37:12 - INFO - modules.trainer_AllinOne -   [33/40] Step: 3000/6623, Training Loss: 0.07974.
+09/09/2025 04:37:57 - INFO - modules.trainer_AllinOne -   [33/40] Step: 4000/6623, Training Loss: 0.08043.
+09/09/2025 04:38:41 - INFO - modules.trainer_AllinOne -   [33/40] Step: 5000/6623, Training Loss: 0.08112.
+09/09/2025 04:39:25 - INFO - modules.trainer_AllinOne -   [33/40] Step: 6000/6623, Training Loss: 0.08174.
+09/09/2025 04:39:52 - INFO - modules.trainer_AllinOne -   [33/40] Start to evaluate in the validation set.
+09/09/2025 04:46:31 - INFO - modules.trainer_AllinOne -   	epoch          : 33
+09/09/2025 04:46:31 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.08220287986883724
+09/09/2025 04:46:31 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.7115525745555507
+09/09/2025 04:46:31 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6804783359694089
+09/09/2025 04:46:31 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6550042585464324
+09/09/2025 04:46:31 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6352822398491317
+09/09/2025 04:46:31 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4495709220823561
+09/09/2025 04:46:31 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6787636713307593
+09/09/2025 04:46:33 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 04:46:35 - INFO - modules.trainer_AllinOne -   Saving new best model: model_best_epoch33.pth ...
+09/09/2025 04:46:35 - INFO - modules.trainer_AllinOne -   [34/40] Start to train in the training set.
+09/09/2025 04:46:35 - INFO - modules.trainer_AllinOne -   [34/40] Step: 0/6623, Training Loss: 0.18718.
+09/09/2025 04:47:19 - INFO - modules.trainer_AllinOne -   [34/40] Step: 1000/6623, Training Loss: 0.08020.
+09/09/2025 04:48:03 - INFO - modules.trainer_AllinOne -   [34/40] Step: 2000/6623, Training Loss: 0.07810.
+09/09/2025 04:48:46 - INFO - modules.trainer_AllinOne -   [34/40] Step: 3000/6623, Training Loss: 0.07928.
+09/09/2025 04:49:30 - INFO - modules.trainer_AllinOne -   [34/40] Step: 4000/6623, Training Loss: 0.07917.
+09/09/2025 04:50:13 - INFO - modules.trainer_AllinOne -   [34/40] Step: 5000/6623, Training Loss: 0.07894.
+09/09/2025 04:50:57 - INFO - modules.trainer_AllinOne -   [34/40] Step: 6000/6623, Training Loss: 0.07989.
+09/09/2025 04:51:25 - INFO - modules.trainer_AllinOne -   [34/40] Start to evaluate in the validation set.
+09/09/2025 04:58:04 - INFO - modules.trainer_AllinOne -   	epoch          : 34
+09/09/2025 04:58:04 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.08076396471385207
+09/09/2025 04:58:04 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.7224508348464288
+09/09/2025 04:58:04 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6868500884107215
+09/09/2025 04:58:04 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.654940455113588
+09/09/2025 04:58:04 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6288399797912604
+09/09/2025 04:58:04 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4500822919048417
+09/09/2025 04:58:04 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.693738264023337
+09/09/2025 04:58:06 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 04:58:06 - INFO - modules.trainer_AllinOne -   [35/40] Start to train in the training set.
+09/09/2025 04:58:06 - INFO - modules.trainer_AllinOne -   [35/40] Step: 0/6623, Training Loss: 0.01233.
+09/09/2025 04:58:50 - INFO - modules.trainer_AllinOne -   [35/40] Step: 1000/6623, Training Loss: 0.07455.
+09/09/2025 04:59:34 - INFO - modules.trainer_AllinOne -   [35/40] Step: 2000/6623, Training Loss: 0.07590.
+09/09/2025 05:00:18 - INFO - modules.trainer_AllinOne -   [35/40] Step: 3000/6623, Training Loss: 0.07904.
+09/09/2025 05:01:01 - INFO - modules.trainer_AllinOne -   [35/40] Step: 4000/6623, Training Loss: 0.07812.
+09/09/2025 05:01:45 - INFO - modules.trainer_AllinOne -   [35/40] Step: 5000/6623, Training Loss: 0.07829.
+09/09/2025 05:02:29 - INFO - modules.trainer_AllinOne -   [35/40] Step: 6000/6623, Training Loss: 0.07918.
+09/09/2025 05:02:56 - INFO - modules.trainer_AllinOne -   [35/40] Start to evaluate in the validation set.
+09/09/2025 05:09:35 - INFO - modules.trainer_AllinOne -   	epoch          : 35
+09/09/2025 05:09:35 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.0791961238844504
+09/09/2025 05:09:35 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6694872246914698
+09/09/2025 05:09:35 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6351902687972112
+09/09/2025 05:09:35 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6076990903557865
+09/09/2025 05:09:35 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.5854341655852395
+09/09/2025 05:09:35 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4199289152251685
+09/09/2025 05:09:35 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.657493156469027
+09/09/2025 05:09:37 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 05:09:37 - INFO - modules.trainer_AllinOne -   [36/40] Start to train in the training set.
+09/09/2025 05:09:37 - INFO - modules.trainer_AllinOne -   [36/40] Step: 0/6623, Training Loss: 0.05774.
+09/09/2025 05:10:21 - INFO - modules.trainer_AllinOne -   [36/40] Step: 1000/6623, Training Loss: 0.07005.
+09/09/2025 05:11:04 - INFO - modules.trainer_AllinOne -   [36/40] Step: 2000/6623, Training Loss: 0.07146.
+09/09/2025 05:11:48 - INFO - modules.trainer_AllinOne -   [36/40] Step: 3000/6623, Training Loss: 0.07505.
+09/09/2025 05:12:32 - INFO - modules.trainer_AllinOne -   [36/40] Step: 4000/6623, Training Loss: 0.07616.
+09/09/2025 05:13:15 - INFO - modules.trainer_AllinOne -   [36/40] Step: 5000/6623, Training Loss: 0.07658.
+09/09/2025 05:13:59 - INFO - modules.trainer_AllinOne -   [36/40] Step: 6000/6623, Training Loss: 0.07797.
+09/09/2025 05:14:27 - INFO - modules.trainer_AllinOne -   [36/40] Start to evaluate in the validation set.
+09/09/2025 05:21:06 - INFO - modules.trainer_AllinOne -   	epoch          : 36
+09/09/2025 05:21:06 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.0781726252829299
+09/09/2025 05:21:06 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.7039805927898991
+09/09/2025 05:21:06 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6701064376155235
+09/09/2025 05:21:06 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6405203460166172
+09/09/2025 05:21:06 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6167158306287978
+09/09/2025 05:21:06 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.442228995602
+09/09/2025 05:21:06 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.7001732138629194
+09/09/2025 05:21:08 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 05:21:08 - INFO - modules.trainer_AllinOne -   [37/40] Start to train in the training set.
+09/09/2025 05:21:09 - INFO - modules.trainer_AllinOne -   [37/40] Step: 0/6623, Training Loss: 0.03937.
+09/09/2025 05:21:52 - INFO - modules.trainer_AllinOne -   [37/40] Step: 1000/6623, Training Loss: 0.07113.
+09/09/2025 05:22:36 - INFO - modules.trainer_AllinOne -   [37/40] Step: 2000/6623, Training Loss: 0.07360.
+09/09/2025 05:23:19 - INFO - modules.trainer_AllinOne -   [37/40] Step: 3000/6623, Training Loss: 0.07366.
+09/09/2025 05:24:03 - INFO - modules.trainer_AllinOne -   [37/40] Step: 4000/6623, Training Loss: 0.07474.
+09/09/2025 05:24:48 - INFO - modules.trainer_AllinOne -   [37/40] Step: 5000/6623, Training Loss: 0.07525.
+09/09/2025 05:25:32 - INFO - modules.trainer_AllinOne -   [37/40] Step: 6000/6623, Training Loss: 0.07659.
+09/09/2025 05:25:59 - INFO - modules.trainer_AllinOne -   [37/40] Start to evaluate in the validation set.
+09/09/2025 05:32:38 - INFO - modules.trainer_AllinOne -   	epoch          : 37
+09/09/2025 05:32:38 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.07753197566972189
+09/09/2025 05:32:38 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.6997731859208007
+09/09/2025 05:32:38 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6686019578054816
+09/09/2025 05:32:38 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6422663586042444
+09/09/2025 05:32:38 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6213453759031237
+09/09/2025 05:32:38 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.4413032955243228
+09/09/2025 05:32:38 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6776379546327501
+09/09/2025 05:32:40 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 05:32:40 - INFO - modules.trainer_AllinOne -   [38/40] Start to train in the training set.
+09/09/2025 05:32:40 - INFO - modules.trainer_AllinOne -   [38/40] Step: 0/6623, Training Loss: 0.00590.
+09/09/2025 05:33:24 - INFO - modules.trainer_AllinOne -   [38/40] Step: 1000/6623, Training Loss: 0.06950.
+09/09/2025 05:34:09 - INFO - modules.trainer_AllinOne -   [38/40] Step: 2000/6623, Training Loss: 0.07554.
+09/09/2025 05:34:53 - INFO - modules.trainer_AllinOne -   [38/40] Step: 3000/6623, Training Loss: 0.07494.
+09/09/2025 05:35:37 - INFO - modules.trainer_AllinOne -   [38/40] Step: 4000/6623, Training Loss: 0.07558.
+09/09/2025 05:36:22 - INFO - modules.trainer_AllinOne -   [38/40] Step: 5000/6623, Training Loss: 0.07765.
+09/09/2025 05:37:06 - INFO - modules.trainer_AllinOne -   [38/40] Step: 6000/6623, Training Loss: 0.07760.
+09/09/2025 05:37:33 - INFO - modules.trainer_AllinOne -   [38/40] Start to evaluate in the validation set.
+09/09/2025 05:44:12 - INFO - modules.trainer_AllinOne -   	epoch          : 38
+09/09/2025 05:44:12 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.077211932076415
+09/09/2025 05:44:12 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.7119215245056301
+09/09/2025 05:44:12 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6812411237171248
+09/09/2025 05:44:12 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.655235719305575
+09/09/2025 05:44:12 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6348836427250479
+09/09/2025 05:44:12 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.454294029828331
+09/09/2025 05:44:12 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6887827518608609
+09/09/2025 05:44:14 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 05:44:14 - INFO - modules.trainer_AllinOne -   [39/40] Start to train in the training set.
+09/09/2025 05:44:14 - INFO - modules.trainer_AllinOne -   [39/40] Step: 0/6623, Training Loss: 0.14900.
+09/09/2025 05:44:58 - INFO - modules.trainer_AllinOne -   [39/40] Step: 1000/6623, Training Loss: 0.06704.
+09/09/2025 05:45:41 - INFO - modules.trainer_AllinOne -   [39/40] Step: 2000/6623, Training Loss: 0.06830.
+09/09/2025 05:46:26 - INFO - modules.trainer_AllinOne -   [39/40] Step: 3000/6623, Training Loss: 0.07112.
+09/09/2025 05:47:09 - INFO - modules.trainer_AllinOne -   [39/40] Step: 4000/6623, Training Loss: 0.07249.
+09/09/2025 05:47:54 - INFO - modules.trainer_AllinOne -   [39/40] Step: 5000/6623, Training Loss: 0.07302.
+09/09/2025 05:48:38 - INFO - modules.trainer_AllinOne -   [39/40] Step: 6000/6623, Training Loss: 0.07397.
+09/09/2025 05:49:05 - INFO - modules.trainer_AllinOne -   [39/40] Start to evaluate in the validation set.
+09/09/2025 05:55:44 - INFO - modules.trainer_AllinOne -   	epoch          : 39
+09/09/2025 05:55:44 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.07468797703748475
+09/09/2025 05:55:44 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.7223014620922391
+09/09/2025 05:55:44 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6903190451211786
+09/09/2025 05:55:44 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6621960850972708
+09/09/2025 05:55:44 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6390170842313816
+09/09/2025 05:55:44 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.45451216802167865
+09/09/2025 05:55:44 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.709537355710664
+09/09/2025 05:55:46 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 05:55:48 - INFO - modules.trainer_AllinOne -   Saving new best model: model_best_epoch39.pth ...
+09/09/2025 05:55:48 - INFO - modules.trainer_AllinOne -   [40/40] Start to train in the training set.
+09/09/2025 05:55:48 - INFO - modules.trainer_AllinOne -   [40/40] Step: 0/6623, Training Loss: 0.02724.
+09/09/2025 05:56:33 - INFO - modules.trainer_AllinOne -   [40/40] Step: 1000/6623, Training Loss: 0.06780.
+09/09/2025 05:57:17 - INFO - modules.trainer_AllinOne -   [40/40] Step: 2000/6623, Training Loss: 0.06702.
+09/09/2025 05:58:01 - INFO - modules.trainer_AllinOne -   [40/40] Step: 3000/6623, Training Loss: 0.06932.
+09/09/2025 05:58:44 - INFO - modules.trainer_AllinOne -   [40/40] Step: 4000/6623, Training Loss: 0.07194.
+09/09/2025 05:59:28 - INFO - modules.trainer_AllinOne -   [40/40] Step: 5000/6623, Training Loss: 0.07350.
+09/09/2025 06:00:13 - INFO - modules.trainer_AllinOne -   [40/40] Step: 6000/6623, Training Loss: 0.07331.
+09/09/2025 06:00:40 - INFO - modules.trainer_AllinOne -   [40/40] Start to evaluate in the validation set.
+09/09/2025 06:07:19 - INFO - modules.trainer_AllinOne -   	epoch          : 40
+09/09/2025 06:07:19 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.07432161542899582
+09/09/2025 06:07:19 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.676982972359018
+09/09/2025 06:07:19 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6433552300990808
+09/09/2025 06:07:19 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6147954339728616
+09/09/2025 06:07:19 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.591807561788157
+09/09/2025 06:07:19 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.42583237443422983
+09/09/2025 06:07:19 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.6719094854641544
+09/09/2025 06:07:21 - INFO - modules.trainer_AllinOne -   Saving checkpoint: /home/woody/iwi5/iwi5204h/HistGen/Data/TrainingResult_17/current_checkpoint.pth ...
+09/09/2025 06:07:21 - INFO - modules.trainer_AllinOne -   Best results (w.r.t BLEU_4) in validation set:
+09/09/2025 06:07:21 - INFO - modules.trainer_AllinOne -   	val_BLEU_4     : 0.6390170842313816
+09/09/2025 06:07:21 - INFO - modules.trainer_AllinOne -   	epoch          : 39
+09/09/2025 06:07:21 - INFO - modules.trainer_AllinOne -   	train_loss     : 0.07468797703748475
+09/09/2025 06:07:21 - INFO - modules.trainer_AllinOne -   	val_BLEU_1     : 0.7223014620922391
+09/09/2025 06:07:21 - INFO - modules.trainer_AllinOne -   	val_BLEU_2     : 0.6903190451211786
+09/09/2025 06:07:21 - INFO - modules.trainer_AllinOne -   	val_BLEU_3     : 0.6621960850972708
+09/09/2025 06:07:21 - INFO - modules.trainer_AllinOne -   	val_METEOR     : 0.45451216802167865
+09/09/2025 06:07:21 - INFO - modules.trainer_AllinOne -   	val_ROUGE_L    : 0.709537355710664
+=== JOB_STATISTICS ===
+=== current date     : Tue Sep  9 06:07:23 AM CEST 2025
+= Job-ID             : 1202346 on tinygpu
+= Job-Name           : histgen_training_17
+= Job-Command        : /home/woody/iwi5/iwi5204h/histgen.sh
+= Initial workdir    : /home/woody/iwi5/iwi5204h
+= Queue/Partition    : a100
+= Slurm account      : iwi5 with QOS=normal
+= Requested resources:  for 1-00:00:00
+= Elapsed runtime    : 07:42:32
+= Total RAM usage    : 35.4 GiB of requested  GiB (%)   
+= Node list          : tg094
+= Subm/Elig/Start/End: 2025-09-08T18:35:52 / 2025-09-08T18:35:52 / 2025-09-08T22:24:51 / 2025-09-09T06:07:23
+======================
+=== Quota infos ======
+    Path                 Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody           308.3G  1000.0G  1500.0G        N/A     236K   5,000K   7,500K        N/A    
+    /home/hpc              14.4G   104.9G   209.7G        N/A  26,998      500K   1,000K        N/A    
+======================
+=== GPU utilization ==
+gpu_name, gpu_bus_id, pid, gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB], time [ms]
+NVIDIA A100-SXM4-40GB, 00000000:41:00.0, 51803, 44 %, 14 %, 10994 MiB, 27729152 ms

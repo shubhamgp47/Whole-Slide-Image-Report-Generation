@@ -1,0 +1,26 @@
+### Starting TaskPrologue of job 515853 on tf082 at Sun Jul 13 08:49:00 PM CEST 2025
+Running on cores 0-127 with governor ondemand
+No GPU known
+### Finished TaskPrologue
+
+/home/woody/iwi5/iwi5204h/software/private/conda/envs/clam/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:950: UserWarning: Corrupt EXIF data.  Expecting to read 8 bytes but only got 0. 
+  warnings.warn(str(msg))
+slurmstepd: error: *** JOB 515853 ON tf082 CANCELLED AT 2025-07-13T21:17:29 ***
+=== JOB_STATISTICS ===
+=== current date     : Sun Jul 13 09:17:32 PM CEST 2025
+= Job-ID             : 515853 on tinyfat
+= Job-Name           : clam_patching
+= Job-Command        : /home/woody/iwi5/iwi5204h/clam_patch.sh
+= Initial workdir    : /home/woody/iwi5/iwi5204h
+= Queue/Partition    : work
+= Slurm account      : iwi5 with QOS=normal
+= Requested resources:  for 1-00:00:00
+= Elapsed runtime    : 00:28:31
+= Total RAM usage    : 58.3 GiB of requested  GiB (%)   
+= Node list          : tf082
+= Subm/Elig/Start/End: 2025-07-13T20:48:58 / 2025-07-13T20:48:58 / 2025-07-13T20:48:58 / 2025-07-13T21:17:29
+======================
+=== Quota infos ======
+    Path                 Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody            57.0G  1000.0G  1500.0G        N/A     136K   5,000K   7,500K        N/A    
+======================

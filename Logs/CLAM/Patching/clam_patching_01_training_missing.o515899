@@ -1,0 +1,1990 @@
+### Starting TaskPrologue of job 515899 on tf086 at Mon Jul 14 05:27:18 PM CEST 2025
+Running on cores 0-127 with governor ondemand
+No GPU known
+### Finished TaskPrologue
+
+=== PROCESSING MULTIPLE FILES FROM LIST ===
+Source directory: /home/janus/iwi5-datasets/REG2025/Train_01
+File list: /home/woody/iwi5/iwi5204h/HistGen/CLAM/patching_scripts/missing_files.txt
+Save directory: /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult
+===========================================
+File list contents:
+-------------------
+PIT_01_04903_01.tiff
+PIT_01_05361_01.tiff
+PIT_02_00030_01.tiff
+PIT_02_00272_01.tiff
+PIT_01_03686_01.tiff
+PIT_01_10342_02.tiff
+PIT_01_07908_01.tiff
+PIT_01_08125_01.tiff
+PIT_01_07768_01.tiff
+PIT_01_02546_01.tiff
+PIT_01_09119_01.tiff
+PIT_01_03459_01.tiff
+PIT_02_00051_01.tiff
+PIT_01_02646_01.tiff
+PIT_01_07965_01.tiff
+PIT_01_05327_01.tiff
+PIT_01_09380_01.tiff
+PIT_01_02504_01.tiff
+PIT_01_05099_01.tiff
+PIT_01_09553_01.tiff
+PIT_01_05236_01.tiff
+PIT_01_02688_01.tiff
+PIT_01_05922_01.tiff
+PIT_01_03529_01.tiff
+PIT_01_05864_01.tiff
+PIT_01_01631_01.tiff
+PIT_02_00248_01.tiff
+PIT_01_05990_01.tiff
+PIT_01_05623_01.tiff
+PIT_01_04302_01.tiff
+PIT_01_06495_02.tiff
+PIT_01_04816_01.tiff
+PIT_01_08386_01.tiff
+PIT_01_09784_01.tiff
+PIT_01_05643_01.tiff
+PIT_01_05185_01.tiff
+PIT_01_04882_01.tiff
+PIT_01_02652_01.tiff
+PIT_01_02656_01.tiff
+PIT_01_05179_01.tiff
+PIT_01_02689_01.tiff
+PIT_01_06172_01.tiff
+PIT_01_05079_01.tiff
+PIT_01_04851_01.tiff
+PIT_01_04834_01.tiff
+PIT_01_06447_02.tiff
+PIT_01_05389_01.tiff
+PIT_01_05568_01.tiff
+PIT_01_05891_01.tiff
+PIT_01_05137_01.tiff
+PIT_01_06548_01.tiff
+PIT_01_04817_01.tiff
+PIT_01_06382_01.tiff
+PIT_01_05957_01.tiff
+PIT_01_02598_01.tiff
+PIT_01_00515_01.tiff
+PIT_01_04929_01.tiff
+PIT_01_10342_03.tiff
+PIT_02_00031_01.tiff
+PIT_01_09790_01.tiff
+PIT_01_02647_01.tiff
+PIT_01_02643_01.tiff
+PIT_01_04863_01.tiff
+PIT_01_07843_01.tiff
+PIT_02_00331_01.tiff
+PIT_01_05939_02.tiff
+PIT_01_08817_01.tiff
+PIT_01_06201_02.tiff
+PIT_01_06140_01.tiff
+PIT_01_03554_01.tiff
+PIT_01_08320_01.tiff
+PIT_01_05154_01.tiff
+PIT_01_05769_02.tiff
+PIT_01_02687_01.tiff
+PIT_01_09882_01.tiff
+PIT_01_08526_01.tiff
+PIT_01_03605_01.tiff
+PIT_01_06080_01.tiff
+PIT_01_02654_01.tiff
+PIT_01_04815_01.tiff
+PIT_01_07651_01.tiff
+PIT_01_05628_01.tiff
+PIT_01_05287_01.tiff
+PIT_01_03808_01.tiff
+PIT_01_05354_01.tiff
+PIT_02_00290_01.tiff
+PIT_01_03694_01.tiff
+PIT_01_06495_01.tiff
+PIT_01_08626_01.tiff
+PIT_01_06994_01.tiff
+PIT_01_05135_01.tiff
+PIT_01_07217_01.tiff
+PIT_01_06550_02.tiff
+PIT_01_05103_01.tiff
+PIT_01_06473_02.tiff
+PIT_01_04800_01.tiff
+PIT_01_05124_01.tiff
+PIT_01_05876_01.tiff
+PIT_01_04827_01.tiff
+PIT_01_02645_01.tiff
+PIT_02_00171_01.tiff
+PIT_01_05531_01.tiff
+PIT_01_02641_01.tiff
+PIT_01_05328_01.tiff
+PIT_01_09496_01.tiff
+PIT_01_09797_01.tiff
+PIT_01_05029_01.tiff
+PIT_01_06456_01.tiff
+PIT_01_05472_01.tiff
+PIT_01_08365_01.tiff
+PIT_01_08127_01.tiff
+PIT_01_04901_01.tiff
+PIT_01_06475_01.tiff
+PIT_01_02597_01.tiff
+PIT_01_05140_01.tiff
+PIT_01_05097_01.tiff
+PIT_01_08536_01.tiff
+PIT_01_04960_01.tiff
+PIT_01_02648_01.tiff
+PIT_01_05040_01.tiff
+PIT_01_05835_01.tiff
+PIT_02_00184_01.tiff
+PIT_01_00477_01.tiff
+PIT_01_02644_01.tiff
+PIT_01_04860_01.tiff
+PIT_01_06163_02.tiff
+PIT_01_05048_01.tiff
+PIT_01_08432_01.tiff
+PIT_02_00180_01.tiff
+PIT_01_03495_01.tiff
+PIT_01_04023_01.tiff
+PIT_01_04852_01.tiff
+PIT_01_05238_01.tiff
+PIT_01_08791_01.tiff
+PIT_01_04881_01.tiff
+PIT_01_02651_01.tiff
+PIT_01_02655_01.tiff
+PIT_01_06152_01.tiff
+PIT_01_05182_01.tiff
+PIT_01_10318_01.tiff
+PIT_02_00265_01.tiff
+PIT_01_04304_01.tiff
+PIT_01_07777_01.tiff
+PIT_01_00649_01.tiff
+PIT_01_05038_01.tiff
+PIT_01_06118_01.tiff-------------------
+✓ LINKED: PIT_01_04903_01.tiff
+✓ LINKED: PIT_01_05361_01.tiff
+✓ LINKED: PIT_02_00030_01.tiff
+✓ LINKED: PIT_02_00272_01.tiff
+✓ LINKED: PIT_01_03686_01.tiff
+✓ LINKED: PIT_01_10342_02.tiff
+✓ LINKED: PIT_01_07908_01.tiff
+✓ LINKED: PIT_01_08125_01.tiff
+✓ LINKED: PIT_01_07768_01.tiff
+✓ LINKED: PIT_01_02546_01.tiff
+✓ LINKED: PIT_01_09119_01.tiff
+✓ LINKED: PIT_01_03459_01.tiff
+✓ LINKED: PIT_02_00051_01.tiff
+✓ LINKED: PIT_01_02646_01.tiff
+✓ LINKED: PIT_01_07965_01.tiff
+✓ LINKED: PIT_01_05327_01.tiff
+✓ LINKED: PIT_01_09380_01.tiff
+✓ LINKED: PIT_01_02504_01.tiff
+✓ LINKED: PIT_01_05099_01.tiff
+✓ LINKED: PIT_01_09553_01.tiff
+✓ LINKED: PIT_01_05236_01.tiff
+✓ LINKED: PIT_01_02688_01.tiff
+✓ LINKED: PIT_01_05922_01.tiff
+✓ LINKED: PIT_01_03529_01.tiff
+✓ LINKED: PIT_01_05864_01.tiff
+✓ LINKED: PIT_01_01631_01.tiff
+✓ LINKED: PIT_02_00248_01.tiff
+✓ LINKED: PIT_01_05990_01.tiff
+✓ LINKED: PIT_01_05623_01.tiff
+✓ LINKED: PIT_01_04302_01.tiff
+✓ LINKED: PIT_01_06495_02.tiff
+✓ LINKED: PIT_01_04816_01.tiff
+✓ LINKED: PIT_01_08386_01.tiff
+✓ LINKED: PIT_01_09784_01.tiff
+✓ LINKED: PIT_01_05643_01.tiff
+✓ LINKED: PIT_01_05185_01.tiff
+✓ LINKED: PIT_01_04882_01.tiff
+✓ LINKED: PIT_01_02652_01.tiff
+✓ LINKED: PIT_01_02656_01.tiff
+✓ LINKED: PIT_01_05179_01.tiff
+✓ LINKED: PIT_01_02689_01.tiff
+✓ LINKED: PIT_01_06172_01.tiff
+✓ LINKED: PIT_01_05079_01.tiff
+✓ LINKED: PIT_01_04851_01.tiff
+✓ LINKED: PIT_01_04834_01.tiff
+✓ LINKED: PIT_01_06447_02.tiff
+✓ LINKED: PIT_01_05389_01.tiff
+✓ LINKED: PIT_01_05568_01.tiff
+✓ LINKED: PIT_01_05891_01.tiff
+✓ LINKED: PIT_01_05137_01.tiff
+✓ LINKED: PIT_01_06548_01.tiff
+✓ LINKED: PIT_01_04817_01.tiff
+✓ LINKED: PIT_01_06382_01.tiff
+✓ LINKED: PIT_01_05957_01.tiff
+✓ LINKED: PIT_01_02598_01.tiff
+✓ LINKED: PIT_01_00515_01.tiff
+✓ LINKED: PIT_01_04929_01.tiff
+✓ LINKED: PIT_01_10342_03.tiff
+✓ LINKED: PIT_02_00031_01.tiff
+✓ LINKED: PIT_01_09790_01.tiff
+✓ LINKED: PIT_01_02647_01.tiff
+✓ LINKED: PIT_01_02643_01.tiff
+✓ LINKED: PIT_01_04863_01.tiff
+✓ LINKED: PIT_01_07843_01.tiff
+✓ LINKED: PIT_02_00331_01.tiff
+✓ LINKED: PIT_01_05939_02.tiff
+✓ LINKED: PIT_01_08817_01.tiff
+✓ LINKED: PIT_01_06201_02.tiff
+✓ LINKED: PIT_01_06140_01.tiff
+✓ LINKED: PIT_01_03554_01.tiff
+✓ LINKED: PIT_01_08320_01.tiff
+✓ LINKED: PIT_01_05154_01.tiff
+✓ LINKED: PIT_01_05769_02.tiff
+✓ LINKED: PIT_01_02687_01.tiff
+✓ LINKED: PIT_01_09882_01.tiff
+✓ LINKED: PIT_01_08526_01.tiff
+✓ LINKED: PIT_01_03605_01.tiff
+✓ LINKED: PIT_01_06080_01.tiff
+✓ LINKED: PIT_01_02654_01.tiff
+✓ LINKED: PIT_01_04815_01.tiff
+✓ LINKED: PIT_01_07651_01.tiff
+✓ LINKED: PIT_01_05628_01.tiff
+✓ LINKED: PIT_01_05287_01.tiff
+✓ LINKED: PIT_01_03808_01.tiff
+✓ LINKED: PIT_01_05354_01.tiff
+✓ LINKED: PIT_02_00290_01.tiff
+✓ LINKED: PIT_01_03694_01.tiff
+✓ LINKED: PIT_01_06495_01.tiff
+✓ LINKED: PIT_01_08626_01.tiff
+✓ LINKED: PIT_01_06994_01.tiff
+✓ LINKED: PIT_01_05135_01.tiff
+✓ LINKED: PIT_01_07217_01.tiff
+✓ LINKED: PIT_01_06550_02.tiff
+✓ LINKED: PIT_01_05103_01.tiff
+✓ LINKED: PIT_01_06473_02.tiff
+✓ LINKED: PIT_01_04800_01.tiff
+✓ LINKED: PIT_01_05124_01.tiff
+✓ LINKED: PIT_01_05876_01.tiff
+✓ LINKED: PIT_01_04827_01.tiff
+✓ LINKED: PIT_01_02645_01.tiff
+✓ LINKED: PIT_02_00171_01.tiff
+✓ LINKED: PIT_01_05531_01.tiff
+✓ LINKED: PIT_01_02641_01.tiff
+✓ LINKED: PIT_01_05328_01.tiff
+✓ LINKED: PIT_01_09496_01.tiff
+✓ LINKED: PIT_01_09797_01.tiff
+✓ LINKED: PIT_01_05029_01.tiff
+✓ LINKED: PIT_01_06456_01.tiff
+✓ LINKED: PIT_01_05472_01.tiff
+✓ LINKED: PIT_01_08365_01.tiff
+✓ LINKED: PIT_01_08127_01.tiff
+✓ LINKED: PIT_01_04901_01.tiff
+✓ LINKED: PIT_01_06475_01.tiff
+✓ LINKED: PIT_01_02597_01.tiff
+✓ LINKED: PIT_01_05140_01.tiff
+✓ LINKED: PIT_01_05097_01.tiff
+✓ LINKED: PIT_01_08536_01.tiff
+✓ LINKED: PIT_01_04960_01.tiff
+✓ LINKED: PIT_01_02648_01.tiff
+✓ LINKED: PIT_01_05040_01.tiff
+✓ LINKED: PIT_01_05835_01.tiff
+✓ LINKED: PIT_02_00184_01.tiff
+✓ LINKED: PIT_01_00477_01.tiff
+✓ LINKED: PIT_01_02644_01.tiff
+✓ LINKED: PIT_01_04860_01.tiff
+✓ LINKED: PIT_01_06163_02.tiff
+✓ LINKED: PIT_01_05048_01.tiff
+✓ LINKED: PIT_01_08432_01.tiff
+✓ LINKED: PIT_02_00180_01.tiff
+✓ LINKED: PIT_01_03495_01.tiff
+✓ LINKED: PIT_01_04023_01.tiff
+✓ LINKED: PIT_01_04852_01.tiff
+✓ LINKED: PIT_01_05238_01.tiff
+✓ LINKED: PIT_01_08791_01.tiff
+✓ LINKED: PIT_01_04881_01.tiff
+✓ LINKED: PIT_01_02651_01.tiff
+✓ LINKED: PIT_01_02655_01.tiff
+✓ LINKED: PIT_01_06152_01.tiff
+✓ LINKED: PIT_01_05182_01.tiff
+✓ LINKED: PIT_01_10318_01.tiff
+✓ LINKED: PIT_02_00265_01.tiff
+✓ LINKED: PIT_01_04304_01.tiff
+✓ LINKED: PIT_01_07777_01.tiff
+✓ LINKED: PIT_01_00649_01.tiff
+✓ LINKED: PIT_01_05038_01.tiff
+=========================================
+Files linked: 145
+Files skipped: 0
+=========================================
+Verifying symbolic links...
+total 16
+drwxr-xr-x 2 iwi5204h iwi5 8192 Jul 14 17:27 .
+drwx------ 6 iwi5204h iwi5 4096 Jul 14 17:27 ..
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_00477_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_00477_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_00515_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_00515_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_00649_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_00649_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_01631_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_01631_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02504_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02504_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02546_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02546_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02597_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02597_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02598_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02598_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02641_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02641_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02643_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02643_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02644_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02644_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02645_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02645_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02646_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02646_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02647_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02647_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02648_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02648_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02651_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02651_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02652_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02652_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02654_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02654_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02655_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02655_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02656_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02656_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02687_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02687_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02688_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02688_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_02689_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_02689_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_03459_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_03459_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_03495_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_03495_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_03529_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_03529_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_03554_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_03554_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_03605_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_03605_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_03686_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_03686_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_03694_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_03694_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_03808_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_03808_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04023_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04023_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04302_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04302_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04304_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04304_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04800_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04800_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04815_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04815_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04816_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04816_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04817_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04817_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04827_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04827_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04834_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04834_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04851_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04851_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04852_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04852_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04860_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04860_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04863_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04863_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04881_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04881_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04882_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04882_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04901_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04901_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04903_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04903_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04929_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04929_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_04960_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_04960_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05029_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05029_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05038_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05038_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05040_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05040_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05048_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05048_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05079_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05079_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05097_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05097_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05099_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05099_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05103_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05103_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05124_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05124_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05135_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05135_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05137_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05137_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05140_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05140_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05154_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05154_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05179_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05179_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05182_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05182_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05185_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05185_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05236_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05236_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05238_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05238_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05287_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05287_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05327_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05327_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05328_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05328_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05354_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05354_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05361_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05361_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05389_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05389_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05472_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05472_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05531_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05531_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05568_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05568_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05623_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05623_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05628_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05628_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05643_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05643_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05769_02.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05769_02.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05835_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05835_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05864_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05864_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05876_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05876_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05891_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05891_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05922_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05922_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05939_02.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05939_02.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05957_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05957_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_05990_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_05990_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06080_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06080_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06140_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06140_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06152_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06152_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06163_02.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06163_02.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06172_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06172_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06201_02.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06201_02.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06382_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06382_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06447_02.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06447_02.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06456_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06456_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06473_02.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06473_02.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06475_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06475_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06495_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06495_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06495_02.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06495_02.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06548_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06548_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06550_02.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06550_02.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_06994_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06994_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_07217_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_07217_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_07651_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_07651_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_07768_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_07768_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_07777_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_07777_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_07843_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_07843_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_07908_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_07908_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_07965_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_07965_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_08125_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_08125_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_08127_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_08127_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_08320_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_08320_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_08365_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_08365_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_08386_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_08386_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_08432_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_08432_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_08526_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_08526_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_08536_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_08536_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_08626_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_08626_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_08791_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_08791_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_08817_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_08817_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_09119_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_09119_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_09380_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_09380_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_09496_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_09496_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_09553_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_09553_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_09784_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_09784_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_09790_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_09790_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_09797_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_09797_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_09882_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_09882_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_10318_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_10318_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_10342_02.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_10342_02.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_01_10342_03.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_10342_03.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_02_00030_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_02_00030_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_02_00031_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_02_00031_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_02_00051_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_02_00051_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_02_00171_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_02_00171_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_02_00180_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_02_00180_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_02_00184_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_02_00184_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_02_00248_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_02_00248_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_02_00265_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_02_00265_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_02_00272_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_02_00272_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_02_00290_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_02_00290_01.tiff
+lrwxrwxrwx 1 iwi5204h iwi5   63 Jul 14 17:27 PIT_02_00331_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_02_00331_01.tiff
+Starting CLAM processing...
+Processing 145 files...
+/home/woody/iwi5/iwi5204h/software/private/conda/envs/clam/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:950: UserWarning: Corrupt EXIF data.  Expecting to read 8 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/woody/iwi5/iwi5204h/software/private/conda/envs/clam/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:950: UserWarning: Corrupt EXIF data.  Expecting to read 8 bytes but only got 0. 
+  warnings.warn(str(msg))
+source:  /home/woody/iwi5/iwi5204h/temp_wsi_batch
+patch_save_dir:  /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult/patches
+mask_save_dir:  /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult/masks
+stitch_save_dir:  /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult/stitches
+source : /home/woody/iwi5/iwi5204h/temp_wsi_batch
+save_dir : /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult
+patch_save_dir : /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult/patches
+mask_save_dir : /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult/masks
+stitch_save_dir : /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult/stitches
+{'seg_params': {'seg_level': np.int64(-1), 'sthresh': np.int64(8), 'mthresh': np.int64(7), 'close': np.int64(4), 'use_otsu': np.False_, 'keep_ids': 'none', 'exclude_ids': 'none'}, 'filter_params': {'a_t': np.int64(16), 'a_h': np.int64(4), 'max_n_holes': np.int64(8)}, 'patch_params': {'use_padding': np.True_, 'contour_fn': 'four_pt'}, 'vis_params': {'vis_level': np.int64(-1), 'line_thickness': np.int64(100)}}
+Total: 145
+
+
+progress: 0.00, 0/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04903_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (93711, 44876)
+Creating patches for:  PIT_01_04903_01 ...
+Total number of contours to process:  0
+segmentation took 265.35928082466125 seconds
+patching took 0.00033211708068847656 seconds
+stitching took -1 seconds
+
+
+progress: 0.01, 1/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05361_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (23926, 13666)
+Creating patches for:  PIT_01_05361_01 ...
+Total number of contours to process:  0
+segmentation took 21.753970861434937 seconds
+patching took 0.00014209747314453125 seconds
+stitching took -1 seconds
+
+
+progress: 0.01, 2/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00030_01.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00030_01.tiff
+
+
+progress: 0.02, 3/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00272_01.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00272_01.tiff
+
+
+progress: 0.03, 4/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_03686_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (29907, 18557)
+Creating patches for:  PIT_01_03686_01 ...
+Total number of contours to process:  0
+segmentation took 37.321165561676025 seconds
+patching took 0.0001251697540283203 seconds
+stitching took -1 seconds
+
+
+progress: 0.03, 5/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_10342_02.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_10342_02.tiff
+
+
+progress: 0.04, 6/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_07908_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 45980)
+Creating patches for:  PIT_01_07908_01 ...
+Total number of contours to process:  0
+segmentation took 310.39128613471985 seconds
+patching took 0.0001709461212158203 seconds
+stitching took -1 seconds
+
+
+progress: 0.05, 7/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_08125_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (43865, 9896)
+Creating patches for:  PIT_01_08125_01 ...
+Total number of contours to process:  0
+segmentation took 27.223678827285767 seconds
+patching took 0.00012111663818359375 seconds
+stitching took -1 seconds
+
+
+progress: 0.06, 8/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_07768_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (29907, 8961)
+Creating patches for:  PIT_01_07768_01 ...
+Total number of contours to process:  0
+segmentation took 16.13895559310913 seconds
+patching took 6.818771362304688e-05 seconds
+stitching took -1 seconds
+
+
+progress: 0.06, 9/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02546_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (79754, 25906)
+Cannot read raw tile
+OpenSlideError, skipped
+
+
+progress: 0.07, 10/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_09119_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (103681, 45984)
+Creating patches for:  PIT_01_09119_01 ...
+Total number of contours to process:  0
+segmentation took 307.6959021091461 seconds
+patching took 0.00012493133544921875 seconds
+stitching took -1 seconds
+
+
+progress: 0.08, 11/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_03459_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (107668, 45970)
+Creating patches for:  PIT_01_03459_01 ...
+Total number of contours to process:  0
+segmentation took 320.38635993003845 seconds
+patching took 0.00012969970703125 seconds
+stitching took -1 seconds
+
+
+progress: 0.08, 12/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00051_01.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00051_01.tiff
+
+
+progress: 0.09, 13/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02646_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (27914, 15777)
+Corrupt JPEG data: premature end of data segment
+OpenSlideError, skipped
+
+
+progress: 0.10, 14/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_07965_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (107668, 45970)
+Creating patches for:  PIT_01_07965_01 ...
+Total number of contours to process:  0
+segmentation took 313.3046667575836 seconds
+patching took 0.00015115737915039062 seconds
+stitching took -1 seconds
+
+
+progress: 0.10, 15/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05327_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (99693, 46082)
+Creating patches for:  PIT_01_05327_01 ...
+Total number of contours to process:  0
+segmentation took 286.75046014785767 seconds
+patching took 0.00012373924255371094 seconds
+stitching took -1 seconds
+
+
+progress: 0.11, 16/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_09380_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 45979)
+Creating patches for:  PIT_01_09380_01 ...
+Total number of contours to process:  0
+segmentation took 304.44656443595886 seconds
+patching took 0.000125885009765625 seconds
+stitching took -1 seconds
+
+
+progress: 0.12, 17/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02504_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (53834, 27566)
+Cannot read raw tile
+OpenSlideError, skipped
+
+
+progress: 0.12, 18/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05099_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (31901, 13139)
+Creating patches for:  PIT_01_05099_01 ...
+Total number of contours to process:  0
+segmentation took 26.62463688850403 seconds
+patching took 0.00011420249938964844 seconds
+stitching took -1 seconds
+
+
+progress: 0.13, 19/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_09553_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (97699, 47161)
+Cannot read raw tile
+OpenSlideError, skipped
+
+
+progress: 0.14, 20/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05236_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 45816)
+Creating patches for:  PIT_01_05236_01 ...
+Total number of contours to process:  0
+segmentation took 302.15664076805115 seconds
+patching took 0.00012540817260742188 seconds
+stitching took -1 seconds
+
+
+progress: 0.14, 21/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02688_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (21932, 24092)
+Corrupt JPEG data: premature end of data segment
+OpenSlideError, skipped
+
+
+progress: 0.15, 22/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05922_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (36189, 16776)
+Creating patches for:  PIT_01_05922_01 ...
+Total number of contours to process:  0
+segmentation took 24.55476689338684 seconds
+patching took 0.0001227855682373047 seconds
+stitching took -1 seconds
+
+
+progress: 0.16, 23/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_03529_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 45975)
+Creating patches for:  PIT_01_03529_01 ...
+Total number of contours to process:  0
+segmentation took 301.1596448421478 seconds
+patching took 0.00012874603271484375 seconds
+stitching took -1 seconds
+
+
+progress: 0.17, 24/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05864_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (69785, 24469)
+Cannot read raw tile
+OpenSlideError, skipped
+
+
+progress: 0.17, 25/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_01631_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (13957, 6073)
+Creating patches for:  PIT_01_01631_01 ...
+Total number of contours to process:  0
+segmentation took 4.6057448387146 seconds
+patching took 9.942054748535156e-05 seconds
+stitching took -1 seconds
+
+
+progress: 0.18, 26/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00248_01.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00248_01.tiff
+
+
+progress: 0.19, 27/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05990_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (49847, 43784)
+Creating patches for:  PIT_01_05990_01 ...
+Total number of contours to process:  0
+segmentation took 87.47586917877197 seconds
+patching took 0.00012373924255371094 seconds
+stitching took -1 seconds
+
+
+progress: 0.19, 28/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05623_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (91717, 39475)
+Creating patches for:  PIT_01_05623_01 ...
+Total number of contours to process:  0
+segmentation took 234.30236840248108 seconds
+patching took 0.0001232624053955078 seconds
+stitching took -1 seconds
+
+
+progress: 0.20, 29/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04302_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (97699, 46093)
+Creating patches for:  PIT_01_04302_01 ...
+Total number of contours to process:  0
+segmentation took 276.54219222068787 seconds
+patching took 0.00012564659118652344 seconds
+stitching took -1 seconds
+
+
+progress: 0.21, 30/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06495_02.tiff
+Seg level chosen: 0
+WSI Level dimensions: (28412, 14263)
+Creating patches for:  PIT_01_06495_02 ...
+Total number of contours to process:  0
+segmentation took 16.60739493370056 seconds
+patching took 0.00010967254638671875 seconds
+stitching took -1 seconds
+
+
+progress: 0.21, 31/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04816_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (29907, 23648)
+Creating patches for:  PIT_01_04816_01 ...
+Total number of contours to process:  0
+segmentation took 44.97811722755432 seconds
+patching took 0.00012993812561035156 seconds
+stitching took -1 seconds
+
+
+progress: 0.22, 32/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_08386_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (99693, 40920)
+Creating patches for:  PIT_01_08386_01 ...
+Total number of contours to process:  0
+segmentation took 265.6216003894806 seconds
+patching took 0.00012159347534179688 seconds
+stitching took -1 seconds
+
+
+progress: 0.23, 33/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_09784_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 46057)
+Creating patches for:  PIT_01_09784_01 ...
+Total number of contours to process:  0
+segmentation took 299.9326765537262 seconds
+patching took 0.00012803077697753906 seconds
+stitching took -1 seconds
+
+
+progress: 0.23, 34/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05643_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (85736, 39418)
+Creating patches for:  PIT_01_05643_01 ...
+Total number of contours to process:  0
+segmentation took 204.78288197517395 seconds
+patching took 0.00012493133544921875 seconds
+stitching took -1 seconds
+
+
+progress: 0.24, 35/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05185_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (25920, 15542)
+Creating patches for:  PIT_01_05185_01 ...
+Total number of contours to process:  0
+segmentation took 26.484225273132324 seconds
+patching took 0.00012612342834472656 seconds
+stitching took -1 seconds
+
+
+progress: 0.25, 36/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04882_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (27914, 12094)
+Creating patches for:  PIT_01_04882_01 ...
+Total number of contours to process:  0
+segmentation took 21.16056203842163 seconds
+patching took 0.00012445449829101562 seconds
+stitching took -1 seconds
+
+
+progress: 0.26, 37/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02652_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (59760, 31697)
+Premature end of JPEG file
+OpenSlideError, skipped
+
+
+progress: 0.26, 38/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02656_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (33895, 28306)
+Premature end of JPEG file
+OpenSlideError, skipped
+
+
+progress: 0.27, 39/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05179_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (27914, 19147)
+Creating patches for:  PIT_01_05179_01 ...
+Total number of contours to process:  0
+segmentation took 31.395653247833252 seconds
+patching took 0.00012302398681640625 seconds
+stitching took -1 seconds
+
+
+progress: 0.28, 40/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02689_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (15950, 9843)
+Corrupt JPEG data: premature end of data segment
+OpenSlideError, skipped
+
+
+progress: 0.28, 41/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06172_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (38282, 29334)
+Creating patches for:  PIT_01_06172_01 ...
+Total number of contours to process:  0
+segmentation took 47.39951825141907 seconds
+patching took 0.00013113021850585938 seconds
+stitching took -1 seconds
+
+
+progress: 0.29, 42/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05079_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (17944, 12129)
+Creating patches for:  PIT_01_05079_01 ...
+Total number of contours to process:  0
+segmentation took 13.77830958366394 seconds
+patching took 0.00010204315185546875 seconds
+stitching took -1 seconds
+
+
+progress: 0.30, 43/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04851_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (21932, 7025)
+Creating patches for:  PIT_01_04851_01 ...
+Total number of contours to process:  0
+segmentation took 10.050935745239258 seconds
+patching took 8.225440979003906e-05 seconds
+stitching took -1 seconds
+
+
+progress: 0.30, 44/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04834_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (5981, 10206)
+Creating patches for:  PIT_01_04834_01 ...
+Total number of contours to process:  0
+segmentation took 4.181822061538696 seconds
+patching took 3.838539123535156e-05 seconds
+stitching took -1 seconds
+
+
+progress: 0.31, 45/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06447_02.tiff
+Seg level chosen: 0
+WSI Level dimensions: (51840, 45982)
+Creating patches for:  PIT_01_06447_02 ...
+Total number of contours to process:  0
+segmentation took 85.93134474754333 seconds
+patching took 0.00012755393981933594 seconds
+stitching took -1 seconds
+
+
+progress: 0.32, 46/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05389_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (103681, 46065)
+Creating patches for:  PIT_01_05389_01 ...
+Total number of contours to process:  0
+segmentation took 288.48959398269653 seconds
+patching took 0.00012683868408203125 seconds
+stitching took -1 seconds
+
+
+progress: 0.32, 47/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05568_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 45974)
+Creating patches for:  PIT_01_05568_01 ...
+Total number of contours to process:  0
+segmentation took 293.3107295036316 seconds
+patching took 0.00014734268188476562 seconds
+stitching took -1 seconds
+
+
+progress: 0.33, 48/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05891_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (31902, 23424)
+Creating patches for:  PIT_01_05891_01 ...
+Total number of contours to process:  0
+segmentation took 30.117166996002197 seconds
+patching took 0.0001270771026611328 seconds
+stitching took -1 seconds
+
+
+progress: 0.34, 49/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05137_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (31901, 21340)
+Creating patches for:  PIT_01_05137_01 ...
+Total number of contours to process:  0
+segmentation took 42.19077253341675 seconds
+patching took 0.00011706352233886719 seconds
+stitching took -1 seconds
+
+
+progress: 0.34, 50/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06548_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (32586, 43833)
+Creating patches for:  PIT_01_06548_01 ...
+Total number of contours to process:  0
+segmentation took 56.2380850315094 seconds
+patching took 0.0001270771026611328 seconds
+stitching took -1 seconds
+
+
+progress: 0.35, 51/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04817_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (21932, 6287)
+Creating patches for:  PIT_01_04817_01 ...
+Total number of contours to process:  0
+segmentation took 8.634693384170532 seconds
+patching took 0.00010442733764648438 seconds
+stitching took -1 seconds
+
+
+progress: 0.36, 52/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06382_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (30905, 17205)
+Creating patches for:  PIT_01_06382_01 ...
+Total number of contours to process:  0
+segmentation took 20.344287633895874 seconds
+patching took 0.00011086463928222656 seconds
+stitching took -1 seconds
+
+
+progress: 0.37, 53/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05957_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (32899, 26368)
+Creating patches for:  PIT_01_05957_01 ...
+Total number of contours to process:  0
+segmentation took 34.8037896156311 seconds
+patching took 0.00012421607971191406 seconds
+stitching took -1 seconds
+
+
+progress: 0.37, 54/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02598_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (35889, 14357)
+Premature end of JPEG file
+OpenSlideError, skipped
+
+
+progress: 0.38, 55/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_00515_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (95705, 44872)
+Creating patches for:  PIT_01_00515_01 ...
+Total number of contours to process:  0
+segmentation took 215.9484486579895 seconds
+patching took 0.00011515617370605469 seconds
+stitching took -1 seconds
+
+
+progress: 0.39, 56/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04929_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (27914, 12169)
+Creating patches for:  PIT_01_04929_01 ...
+Total number of contours to process:  0
+segmentation took 22.756614446640015 seconds
+patching took 0.00011873245239257812 seconds
+stitching took -1 seconds
+
+
+progress: 0.39, 57/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_10342_03.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_10342_03.tiff
+
+
+progress: 0.40, 58/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00031_01.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00031_01.tiff
+
+
+progress: 0.41, 59/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_09790_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (99693, 44854)
+Creating patches for:  PIT_01_09790_01 ...
+Total number of contours to process:  0
+segmentation took 265.5731770992279 seconds
+patching took 0.00013113021850585938 seconds
+stitching took -1 seconds
+
+
+progress: 0.41, 60/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02647_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (29907, 18152)
+Corrupt JPEG data: premature end of data segment
+OpenSlideError, skipped
+
+
+progress: 0.42, 61/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02643_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (27914, 22095)
+Corrupt JPEG data: premature end of data segment
+OpenSlideError, skipped
+
+
+progress: 0.43, 62/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04863_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (87730, 44903)
+Creating patches for:  PIT_01_04863_01 ...
+Total number of contours to process:  0
+segmentation took 230.47684335708618 seconds
+patching took 0.00012302398681640625 seconds
+stitching took -1 seconds
+
+
+progress: 0.43, 63/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_07843_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (107668, 45969)
+Creating patches for:  PIT_01_07843_01 ...
+Total number of contours to process:  0
+segmentation took 304.52912068367004 seconds
+patching took 0.00013494491577148438 seconds
+stitching took -1 seconds
+
+
+progress: 0.44, 64/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00331_01.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00331_01.tiff
+
+
+progress: 0.45, 65/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05939_02.tiff
+Seg level chosen: 0
+WSI Level dimensions: (49846, 40175)
+Creating patches for:  PIT_01_05939_02 ...
+Total number of contours to process:  0
+segmentation took 74.91092491149902 seconds
+patching took 0.0001361370086669922 seconds
+stitching took -1 seconds
+
+
+progress: 0.46, 66/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_08817_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (101687, 44846)
+Creating patches for:  PIT_01_08817_01 ...
+Total number of contours to process:  0
+segmentation took 272.4533655643463 seconds
+patching took 0.00012087821960449219 seconds
+stitching took -1 seconds
+
+
+progress: 0.46, 67/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06201_02.tiff
+Seg level chosen: 0
+WSI Level dimensions: (50843, 46075)
+Creating patches for:  PIT_01_06201_02 ...
+Total number of contours to process:  0
+segmentation took 89.8202555179596 seconds
+patching took 0.00013065338134765625 seconds
+stitching took -1 seconds
+
+
+progress: 0.47, 68/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06140_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (34893, 25124)
+Creating patches for:  PIT_01_06140_01 ...
+Total number of contours to process:  0
+segmentation took 33.8038284778595 seconds
+patching took 0.00010466575622558594 seconds
+stitching took -1 seconds
+
+
+progress: 0.48, 69/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_03554_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (25920, 9965)
+Creating patches for:  PIT_01_03554_01 ...
+Total number of contours to process:  0
+segmentation took 17.24271535873413 seconds
+patching took 0.00012493133544921875 seconds
+stitching took -1 seconds
+
+
+progress: 0.48, 70/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_08320_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (27914, 8643)
+Creating patches for:  PIT_01_08320_01 ...
+Total number of contours to process:  0
+segmentation took 15.065126419067383 seconds
+patching took 0.00011658668518066406 seconds
+stitching took -1 seconds
+
+
+progress: 0.49, 71/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05154_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (27914, 15942)
+Creating patches for:  PIT_01_05154_01 ...
+Total number of contours to process:  0
+segmentation took 28.873227834701538 seconds
+patching took 8.463859558105469e-05 seconds
+stitching took -1 seconds
+
+
+progress: 0.50, 72/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05769_02.tiff
+Seg level chosen: 0
+WSI Level dimensions: (31901, 20146)
+Creating patches for:  PIT_01_05769_02 ...
+Total number of contours to process:  0
+segmentation took 24.900540113449097 seconds
+patching took 9.918212890625e-05 seconds
+stitching took -1 seconds
+
+
+progress: 0.50, 73/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02687_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (23926, 9562)
+Corrupt JPEG data: premature end of data segment
+OpenSlideError, skipped
+
+
+progress: 0.51, 74/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_09882_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (15950, 12797)
+Cannot read raw tile
+OpenSlideError, skipped
+
+
+progress: 0.52, 75/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_08526_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (101687, 44844)
+Creating patches for:  PIT_01_08526_01 ...
+Total number of contours to process:  0
+segmentation took 269.6875433921814 seconds
+patching took 0.00013256072998046875 seconds
+stitching took -1 seconds
+
+
+progress: 0.52, 76/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_03605_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (33895, 38721)
+Cannot read raw tile
+OpenSlideError, skipped
+
+
+progress: 0.53, 77/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06080_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (47853, 42572)
+Creating patches for:  PIT_01_06080_01 ...
+Total number of contours to process:  0
+segmentation took 78.37091374397278 seconds
+patching took 0.0001461505889892578 seconds
+stitching took -1 seconds
+
+
+progress: 0.54, 78/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02654_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (29907, 17002)
+Premature end of JPEG file
+OpenSlideError, skipped
+
+
+progress: 0.54, 79/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04815_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (31901, 16911)
+Creating patches for:  PIT_01_04815_01 ...
+Total number of contours to process:  0
+segmentation took 34.17437505722046 seconds
+patching took 0.0001277923583984375 seconds
+stitching took -1 seconds
+
+
+progress: 0.55, 80/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_07651_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (25920, 10949)
+Creating patches for:  PIT_01_07651_01 ...
+Total number of contours to process:  0
+segmentation took 17.720155477523804 seconds
+patching took 0.00012755393981933594 seconds
+stitching took -1 seconds
+
+
+progress: 0.56, 81/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05628_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (23926, 13417)
+Creating patches for:  PIT_01_05628_01 ...
+Total number of contours to process:  0
+segmentation took 20.9920551776886 seconds
+patching took 0.0002415180206298828 seconds
+stitching took -1 seconds
+
+
+progress: 0.57, 82/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05287_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (29907, 10526)
+Creating patches for:  PIT_01_05287_01 ...
+Total number of contours to process:  0
+segmentation took 19.80606460571289 seconds
+patching took 0.00012421607971191406 seconds
+stitching took -1 seconds
+
+
+progress: 0.57, 83/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_03808_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (21932, 8506)
+Creating patches for:  PIT_01_03808_01 ...
+Total number of contours to process:  0
+segmentation took 11.23347020149231 seconds
+patching took 0.0001201629638671875 seconds
+stitching took -1 seconds
+
+
+progress: 0.58, 84/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05354_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (101687, 46076)
+Creating patches for:  PIT_01_05354_01 ...
+Total number of contours to process:  0
+segmentation took 284.1038587093353 seconds
+patching took 0.00012969970703125 seconds
+stitching took -1 seconds
+
+
+progress: 0.59, 85/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00290_01.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00290_01.tiff
+
+
+progress: 0.59, 86/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_03694_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (69785, 23734)
+Cannot read raw tile
+OpenSlideError, skipped
+
+
+progress: 0.60, 87/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06495_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (9471, 14263)
+Creating patches for:  PIT_01_06495_01 ...
+Total number of contours to process:  0
+segmentation took 5.339142084121704 seconds
+patching took 8.869171142578125e-05 seconds
+stitching took -1 seconds
+
+
+progress: 0.61, 88/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_08626_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (93711, 46107)
+Creating patches for:  PIT_01_08626_01 ...
+Total number of contours to process:  0
+segmentation took 265.6015729904175 seconds
+patching took 0.00012111663818359375 seconds
+stitching took -1 seconds
+
+
+progress: 0.61, 89/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06994_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (5981, 11029)
+Creating patches for:  PIT_01_06994_01 ...
+Total number of contours to process:  0
+segmentation took 4.671380996704102 seconds
+patching took 0.00010728836059570312 seconds
+stitching took -1 seconds
+
+
+progress: 0.62, 90/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05135_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (101687, 46159)
+Creating patches for:  PIT_01_05135_01 ...
+Total number of contours to process:  0
+segmentation took 286.5478527545929 seconds
+patching took 0.0001270771026611328 seconds
+stitching took -1 seconds
+
+
+progress: 0.63, 91/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_07217_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (23926, 10874)
+Creating patches for:  PIT_01_07217_01 ...
+Total number of contours to process:  0
+segmentation took 17.006059169769287 seconds
+patching took 0.00013065338134765625 seconds
+stitching took -1 seconds
+
+
+progress: 0.63, 92/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06550_02.tiff
+Seg level chosen: 0
+WSI Level dimensions: (25521, 43853)
+Creating patches for:  PIT_01_06550_02 ...
+Total number of contours to process:  0
+segmentation took 40.047577142715454 seconds
+patching took 0.00012612342834472656 seconds
+stitching took -1 seconds
+
+
+progress: 0.64, 93/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05103_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (101687, 46237)
+Creating patches for:  PIT_01_05103_01 ...
+Total number of contours to process:  0
+segmentation took 289.79229617118835 seconds
+patching took 0.0001277923583984375 seconds
+stitching took -1 seconds
+
+
+progress: 0.65, 94/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06473_02.tiff
+Seg level chosen: 0
+WSI Level dimensions: (48849, 43792)
+Creating patches for:  PIT_01_06473_02 ...
+Total number of contours to process:  0
+segmentation took 82.79511141777039 seconds
+patching took 0.0001289844512939453 seconds
+stitching took -1 seconds
+
+
+progress: 0.66, 95/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04800_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (23926, 17932)
+Creating patches for:  PIT_01_04800_01 ...
+Total number of contours to process:  0
+segmentation took 27.17139220237732 seconds
+patching took 0.00010752677917480469 seconds
+stitching took -1 seconds
+
+
+progress: 0.66, 96/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05124_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (27914, 8726)
+Creating patches for:  PIT_01_05124_01 ...
+Total number of contours to process:  0
+segmentation took 15.19820785522461 seconds
+patching took 0.00011992454528808594 seconds
+stitching took -1 seconds
+
+
+progress: 0.67, 97/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05876_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (23926, 18336)
+Creating patches for:  PIT_01_05876_01 ...
+Total number of contours to process:  0
+segmentation took 26.832119464874268 seconds
+patching took 0.00012111663818359375 seconds
+stitching took -1 seconds
+
+
+progress: 0.68, 98/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04827_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (25920, 12097)
+Creating patches for:  PIT_01_04827_01 ...
+Total number of contours to process:  0
+segmentation took 19.792012929916382 seconds
+patching took 7.534027099609375e-05 seconds
+stitching took -1 seconds
+
+
+progress: 0.68, 99/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02645_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (21932, 15724)
+Corrupt JPEG data: premature end of data segment
+OpenSlideError, skipped
+
+
+progress: 0.69, 100/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00171_01.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00171_01.tiff
+
+
+progress: 0.70, 101/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05531_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (103681, 45985)
+Creating patches for:  PIT_01_05531_01 ...
+Total number of contours to process:  0
+segmentation took 289.9316246509552 seconds
+patching took 0.0001270771026611328 seconds
+stitching took -1 seconds
+
+
+progress: 0.70, 102/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02641_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (19938, 21064)
+Premature end of JPEG file
+OpenSlideError, skipped
+
+
+progress: 0.71, 103/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05328_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (103681, 46070)
+Creating patches for:  PIT_01_05328_01 ...
+Total number of contours to process:  0
+segmentation took 297.4730293750763 seconds
+patching took 0.00014638900756835938 seconds
+stitching took -1 seconds
+
+
+progress: 0.72, 104/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_09496_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 46057)
+Creating patches for:  PIT_01_09496_01 ...
+Total number of contours to process:  0
+segmentation took 290.18193435668945 seconds
+patching took 0.00012993812561035156 seconds
+stitching took -1 seconds
+
+
+progress: 0.72, 105/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_09797_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (63803, 13589)
+Cannot read raw tile
+OpenSlideError, skipped
+
+
+progress: 0.73, 106/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05029_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (101687, 42795)
+Creating patches for:  PIT_01_05029_01 ...
+Total number of contours to process:  0
+segmentation took 258.260493516922 seconds
+patching took 0.00013208389282226562 seconds
+stitching took -1 seconds
+
+
+progress: 0.74, 107/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06456_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (30905, 17937)
+Creating patches for:  PIT_01_06456_01 ...
+Total number of contours to process:  0
+segmentation took 21.348389863967896 seconds
+patching took 0.00012636184692382812 seconds
+stitching took -1 seconds
+
+
+progress: 0.74, 108/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05472_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (23926, 10548)
+Creating patches for:  PIT_01_05472_01 ...
+Total number of contours to process:  0
+segmentation took 16.427438020706177 seconds
+patching took 0.00011658668518066406 seconds
+stitching took -1 seconds
+
+
+progress: 0.75, 109/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_08365_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (23926, 8335)
+Creating patches for:  PIT_01_08365_01 ...
+Total number of contours to process:  0
+segmentation took 13.06046986579895 seconds
+patching took 6.389617919921875e-05 seconds
+stitching took -1 seconds
+
+
+progress: 0.76, 110/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_08127_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 45974)
+Creating patches for:  PIT_01_08127_01 ...
+Total number of contours to process:  0
+segmentation took 309.2040984630585 seconds
+patching took 0.0001442432403564453 seconds
+stitching took -1 seconds
+
+
+progress: 0.77, 111/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04901_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (25920, 27518)
+Creating patches for:  PIT_01_04901_01 ...
+Total number of contours to process:  5
+Bounding Box: 22250 12791 3670 8311
+Contour Area: 6795369.5
+Extracted 37 coordinates
+Bounding Box: 15739 12661 2063 6649
+Contour Area: 6538172.0
+Extracted 38 coordinates
+Bounding Box: 4658 8078 4460 9296
+Contour Area: 8341919.5
+Extracted 44 coordinates
+Bounding Box: 18914 5477 5559 21086
+Contour Area: 32846804.0
+Extracted 157 coordinates
+Bounding Box: 1225 1593 5344 21262
+Contour Area: 32680331.0
+Extracted 157 coordinates
+segmentation took 47.14013361930847 seconds
+patching took 2.5931293964385986 seconds
+stitching took -1 seconds
+
+
+progress: 0.77, 112/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06475_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (58107, 46483)
+Creating patches for:  PIT_01_06475_01 ...
+Total number of contours to process:  0
+segmentation took 101.23206996917725 seconds
+patching took 0.00013566017150878906 seconds
+stitching took -1 seconds
+
+
+progress: 0.78, 113/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02597_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (25920, 9475)
+Corrupt JPEG data: premature end of data segment
+OpenSlideError, skipped
+
+
+progress: 0.79, 114/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05140_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (23926, 12759)
+Creating patches for:  PIT_01_05140_01 ...
+Total number of contours to process:  0
+segmentation took 19.530831813812256 seconds
+patching took 0.00012421607971191406 seconds
+stitching took -1 seconds
+
+
+progress: 0.79, 115/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05097_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 46226)
+Creating patches for:  PIT_01_05097_01 ...
+Total number of contours to process:  0
+segmentation took 296.8802239894867 seconds
+patching took 0.00014734268188476562 seconds
+stitching took -1 seconds
+
+
+progress: 0.80, 116/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_08536_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (25920, 10865)
+Creating patches for:  PIT_01_08536_01 ...
+Total number of contours to process:  0
+segmentation took 18.797297716140747 seconds
+patching took 0.00012421607971191406 seconds
+stitching took -1 seconds
+
+
+progress: 0.81, 117/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04960_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (27914, 13896)
+Creating patches for:  PIT_01_04960_01 ...
+Total number of contours to process:  0
+segmentation took 24.40971875190735 seconds
+patching took 0.00013446807861328125 seconds
+stitching took -1 seconds
+
+
+progress: 0.81, 118/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02648_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (17944, 21975)
+Corrupt JPEG data: premature end of data segment
+OpenSlideError, skipped
+
+
+progress: 0.82, 119/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05040_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 46468)
+Creating patches for:  PIT_01_05040_01 ...
+Total number of contours to process:  0
+segmentation took 297.1163327693939 seconds
+patching took 0.00013327598571777344 seconds
+stitching took -1 seconds
+
+
+progress: 0.83, 120/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05835_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (52837, 46467)
+Creating patches for:  PIT_01_05835_01 ...
+Total number of contours to process:  0
+segmentation took 96.87490963935852 seconds
+patching took 0.00012445449829101562 seconds
+stitching took -1 seconds
+
+
+progress: 0.83, 121/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00184_01.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00184_01.tiff
+
+
+progress: 0.84, 122/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_00477_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (21932, 17858)
+Creating patches for:  PIT_01_00477_01 ...
+Total number of contours to process:  0
+segmentation took 22.043434619903564 seconds
+patching took 0.0001246929168701172 seconds
+stitching took -1 seconds
+
+
+progress: 0.85, 123/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02644_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (35889, 22148)
+Corrupt JPEG data: premature end of data segment
+OpenSlideError, skipped
+
+
+progress: 0.86, 124/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04860_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (45858, 12262)
+Creating patches for:  PIT_01_04860_01 ...
+Total number of contours to process:  0
+segmentation took 35.05308818817139 seconds
+patching took 0.00012373924255371094 seconds
+stitching took -1 seconds
+
+
+progress: 0.86, 125/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06163_02.tiff
+Seg level chosen: 0
+WSI Level dimensions: (33895, 25464)
+Creating patches for:  PIT_01_06163_02 ...
+Total number of contours to process:  0
+segmentation took 30.60780382156372 seconds
+patching took 7.033348083496094e-05 seconds
+stitching took -1 seconds
+
+
+progress: 0.87, 126/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05048_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (101687, 46483)
+Creating patches for:  PIT_01_05048_01 ...
+Total number of contours to process:  0
+segmentation took 282.5185205936432 seconds
+patching took 0.00029778480529785156 seconds
+stitching took -1 seconds
+
+
+progress: 0.88, 127/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_08432_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (25920, 12259)
+Creating patches for:  PIT_01_08432_01 ...
+Total number of contours to process:  4
+Bounding Box: 1125 7804 4489 3516
+Contour Area: 11372291.5
+Extracted 53 coordinates
+Bounding Box: 19026 6963 4580 3525
+Contour Area: 12019264.0
+Extracted 55 coordinates
+Bounding Box: 2235 2555 4934 4433
+Contour Area: 14674923.5
+Extracted 67 coordinates
+Bounding Box: 20018 1698 4987 4494
+Contour Area: 15217897.5
+/home/woody/iwi5/iwi5204h/software/private/conda/envs/clam/lib/python3.10/site-packages/PIL/TiffImagePlugin.py:950: UserWarning: Corrupt EXIF data.  Expecting to read 8 bytes but only got 0. 
+  warnings.warn(str(msg))
+Extracted 69 coordinates
+segmentation took 22.368975162506104 seconds
+patching took 0.6524224281311035 seconds
+stitching took -1 seconds
+
+
+progress: 0.88, 128/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00180_01.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00180_01.tiff
+
+
+progress: 0.89, 129/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_03495_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (79754, 18195)
+Creating patches for:  PIT_01_03495_01 ...
+Total number of contours to process:  0
+segmentation took 94.58874154090881 seconds
+patching took 0.00011968612670898438 seconds
+stitching took -1 seconds
+
+
+progress: 0.90, 130/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04023_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 45975)
+Creating patches for:  PIT_01_04023_01 ...
+Total number of contours to process:  0
+segmentation took 319.9702560901642 seconds
+patching took 0.00016188621520996094 seconds
+stitching took -1 seconds
+
+
+progress: 0.90, 131/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04852_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (27914, 13890)
+Creating patches for:  PIT_01_04852_01 ...
+Total number of contours to process:  0
+segmentation took 25.265864610671997 seconds
+patching took 0.00013065338134765625 seconds
+stitching took -1 seconds
+
+
+progress: 0.91, 132/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05238_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 40895)
+Creating patches for:  PIT_01_05238_01 ...
+Total number of contours to process:  0
+segmentation took 272.6444766521454 seconds
+patching took 0.0001289844512939453 seconds
+stitching took -1 seconds
+
+
+progress: 0.92, 133/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_08791_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (105674, 46471)
+Creating patches for:  PIT_01_08791_01 ...
+Total number of contours to process:  0
+segmentation took 299.9335126876831 seconds
+patching took 0.00012874603271484375 seconds
+stitching took -1 seconds
+
+
+progress: 0.92, 134/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04881_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (95705, 44871)
+Creating patches for:  PIT_01_04881_01 ...
+Total number of contours to process:  0
+segmentation took 262.83036828041077 seconds
+patching took 0.00012826919555664062 seconds
+stitching took -1 seconds
+
+
+progress: 0.93, 135/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02651_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (19938, 22372)
+Corrupt JPEG data: premature end of data segment
+OpenSlideError, skipped
+
+
+progress: 0.94, 136/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_02655_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (27914, 22996)
+Corrupt JPEG data: premature end of data segment
+OpenSlideError, skipped
+
+
+progress: 0.94, 137/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_06152_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (45859, 39802)
+Creating patches for:  PIT_01_06152_01 ...
+Total number of contours to process:  0
+segmentation took 74.09169268608093 seconds
+patching took 0.0001354217529296875 seconds
+stitching took -1 seconds
+
+
+progress: 0.95, 138/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05182_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (99693, 46080)
+Creating patches for:  PIT_01_05182_01 ...
+Total number of contours to process:  0
+segmentation took 284.6506812572479 seconds
+patching took 0.00012803077697753906 seconds
+stitching took -1 seconds
+
+
+progress: 0.96, 139/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_10318_01.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_10318_01.tiff
+
+
+progress: 0.97, 140/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00265_01.tiff
+Failed to reading: /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_02_00265_01.tiff
+
+
+progress: 0.97, 141/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_04304_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (27914, 15618)
+Creating patches for:  PIT_01_04304_01 ...
+Total number of contours to process:  6
+Bounding Box: 1237 8946 3421 5702
+Contour Area: 12062039.0
+Extracted 58 coordinates
+Bounding Box: 19531 8645 3401 6184
+Contour Area: 12137702.0
+Extracted 58 coordinates
+Bounding Box: 20897 6265 5146 5633
+Contour Area: 16831211.0
+Extracted 74 coordinates
+Bounding Box: 2577 6083 5154 5604
+Contour Area: 16876651.0
+Extracted 75 coordinates
+Bounding Box: 20118 2970 3918 4615
+Contour Area: 11078301.0
+Extracted 52 coordinates
+Bounding Box: 1779 2789 3895 4617
+Contour Area: 11037765.0
+Extracted 51 coordinates
+segmentation took 30.079803705215454 seconds
+patching took 2.152482032775879 seconds
+stitching took -1 seconds
+
+
+progress: 0.98, 142/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_07777_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (101687, 46076)
+Creating patches for:  PIT_01_07777_01 ...
+Total number of contours to process:  0
+segmentation took 285.02655482292175 seconds
+patching took 0.00013113021850585938 seconds
+stitching took -1 seconds
+
+
+progress: 0.99, 143/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_00649_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (101687, 44846)
+Creating patches for:  PIT_01_00649_01 ...
+Total number of contours to process:  0
+segmentation took 238.4350779056549 seconds
+patching took 0.00014138221740722656 seconds
+stitching took -1 seconds
+
+
+progress: 0.99, 144/145
+processing /home/woody/iwi5/iwi5204h/temp_wsi_batch/PIT_01_05038_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (25920, 13817)
+Creating patches for:  PIT_01_05038_01 ...
+Total number of contours to process:  0
+segmentation took 23.130085945129395 seconds
+patching took 0.00012803077697753906 seconds
+stitching took -1 seconds
+average segmentation time in s per slide: 94.68257655768559
+average patching time in s per slide: 0.0373181178652007
+average stiching time in s per slide: -0.7310344827586207
+✓ CLAM processing completed successfully!
+Results saved to: /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult
+Generated files:
+total 420
+drwxr-xr-x 5 iwi5204h iwi5    102 Jul  4 21:25 .
+drwxr-xr-x 8 iwi5204h iwi5   4096 Jul 13 20:56 ..
+drwxr-xr-x 2 iwi5204h iwi5     10 Jul  4 21:04 masks
+drwxr-xr-x 2 iwi5204h iwi5 274432 Jul 14 21:14 patches
+-rw-r--r-- 1 iwi5204h iwi5  18683 Jul 14 21:24 process_list_autogen.csv
+drwxr-xr-x 2 iwi5204h iwi5     10 Jul  4 21:04 stitches
+Cleaning up temporary directory...
+✓ Cleanup complete - original data is safe!
+=========================================
+=== JOB_STATISTICS ===
+=== current date     : Mon Jul 14 09:24:08 PM CEST 2025
+= Job-ID             : 515899 on tinyfat
+= Job-Name           : clam_patching_01
+= Job-Command        : /home/woody/iwi5/iwi5204h/clam_patch_800_1.sh
+= Initial workdir    : /home/woody/iwi5/iwi5204h
+= Queue/Partition    : work
+= Slurm account      : iwi5 with QOS=normal
+= Requested resources:  for 1-00:00:00
+= Elapsed runtime    : 03:56:52
+= Total RAM usage    : 79.9 GiB of requested  GiB (%)   
+= Node list          : tf086
+= Subm/Elig/Start/End: 2025-07-14T17:27:16 / 2025-07-14T17:27:16 / 2025-07-14T17:27:16 / 2025-07-14T21:24:08
+======================
+=== Quota infos ======
+    Path                 Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody            57.7G  1000.0G  1500.0G        N/A     138K   5,000K   7,500K        N/A    
+======================

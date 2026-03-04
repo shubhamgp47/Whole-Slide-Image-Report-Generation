@@ -1,0 +1,14 @@
+#!/bin/bash -l
+#SBATCH --job-name=clam_extract_test2_a100
+#SBATCH --ntasks-per-node=1
+#SBATCH --time=24:00:00
+#SBATCH --partition=a100
+#SBATCH --gres=gpu:a100:1
+#SBATCH --ntasks=1
+#SBATCH --export=NONE
+
+unset SLURM_EXPORT_ENV
+source ~/.bashrc
+module load python
+conda activate clam
+bash /home/woody/iwi5/iwi5204h/HistGen/CLAM/extract_scripts/tcga-wsi-report_a100.sh

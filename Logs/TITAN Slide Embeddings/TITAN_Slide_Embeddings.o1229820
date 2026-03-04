@@ -1,0 +1,51 @@
+### Starting TaskPrologue of job 1229820 on tg072 at Sat Oct  4 02:32:24 PM CEST 2025
+Running on cores 4-5,12-13,20-21,28-29 with governor ondemand
+Sat Oct  4 14:32:24 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.158.01             Driver Version: 570.158.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-PCIE-32GB           On  |   00000000:86:00.0 Off |                    0 |
+| N/A   33C    P0             27W /  250W |       0MiB /  32768MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+### Finished TaskPrologue
+
+Using device: cuda
+Loading TITAN model...
+Found 8352 files in /home/woody/iwi5/iwi5204h/CLAM/CONCH_1_5_features/h5_files_postprocessed
+Extracting TITAN slide embeddings:   0%|          | 0/8352 [00:00<?, ?it/s]Extracting TITAN slide embeddings:   5%|▌         | 459/8352 [00:00<00:01, 4585.63it/s]Extracting TITAN slide embeddings:  11%|█         | 918/8352 [00:00<00:01, 4505.94it/s]Extracting TITAN slide embeddings:  16%|█▋        | 1373/8352 [00:00<00:01, 4522.04it/s]Extracting TITAN slide embeddings:  22%|██▏       | 1834/8352 [00:00<00:01, 4553.73it/s]Extracting TITAN slide embeddings:  27%|██▋       | 2290/8352 [00:00<00:01, 4527.66it/s]Extracting TITAN slide embeddings:  33%|███▎      | 2743/8352 [00:00<00:01, 4499.08it/s]Extracting TITAN slide embeddings:  38%|███▊      | 3193/8352 [00:00<00:01, 4442.14it/s]Extracting TITAN slide embeddings:  44%|████▎     | 3638/8352 [00:00<00:01, 4417.08it/s]Extracting TITAN slide embeddings:  49%|████▉     | 4089/8352 [00:00<00:00, 4442.85it/s]Extracting TITAN slide embeddings:  54%|█████▍    | 4535/8352 [00:01<00:00, 4445.93it/s]Extracting TITAN slide embeddings:  60%|█████▉    | 4980/8352 [00:01<00:00, 4425.12it/s]Extracting TITAN slide embeddings:  65%|██████▍   | 5423/8352 [00:01<00:00, 4309.50it/s]Extracting TITAN slide embeddings:  70%|███████   | 5855/8352 [00:01<00:00, 4094.09it/s]Extracting TITAN slide embeddings:  75%|███████▌  | 6300/8352 [00:01<00:00, 4194.37it/s]Extracting TITAN slide embeddings:  81%|████████  | 6750/8352 [00:01<00:00, 4281.12it/s]Extracting TITAN slide embeddings:  86%|████████▌ | 7192/8352 [00:01<00:00, 4319.51it/s]Extracting TITAN slide embeddings:  91%|█████████▏| 7638/8352 [00:01<00:00, 4358.19it/s]Extracting TITAN slide embeddings:  91%|█████████▏| 7638/8352 [00:20<00:00, 4358.19it/s]/var/tmp/slurmd_spool/job1229820/slurm_script: line 17: 2154973 Killed                  python /home/woody/iwi5/iwi5204h/HistGen4TITAN/extractSlideEmbeddings.py
+slurmstepd: error: Detected 1 oom_kill event in StepId=1229820.batch. Some of the step tasks have been OOM Killed.
+=== JOB_STATISTICS ===
+=== current date     : Sat Oct  4 02:33:32 PM CEST 2025
+= Job-ID             : 1229820 on tinygpu
+= Job-Name           : TITAN_Slide_Embeddings
+= Job-Command        : /home/woody/iwi5/iwi5204h/TITAN_Slide_Embeddings.sh
+= Initial workdir    : /home/woody/iwi5/iwi5204h
+= Queue/Partition    : v100
+= Slurm account      : iwi5 with QOS=normal
+= Requested resources:  for 1-00:00:00
+= Elapsed runtime    : 00:01:12
+= Total RAM usage    : 20.7 GiB of requested  GiB (%)   
+= Node list          : tg072
+= Subm/Elig/Start/End: 2025-10-04T14:31:56 / 2025-10-04T14:31:56 / 2025-10-04T14:31:57 / 2025-10-04T14:33:09
+======================
+=== Quota infos ======
+    Path                 Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody           494.2G  1000.0G  1500.0G        N/A     464K   5,000K   7,500K        N/A    
+    /home/hpc              57.1G   104.9G   209.7G        N/A      67K     500K   1,000K        N/A    
+======================
+=== GPU utilization ==
+gpu_name, gpu_bus_id, pid, gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB], time [ms]
+Tesla V100-PCIE-32GB, 00000000:86:00.0, 2154973, 0 %, 0 %, 1290 MiB, 57815 ms

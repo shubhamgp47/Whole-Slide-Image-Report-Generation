@@ -1,0 +1,74 @@
+### Starting TaskPrologue of job 515914 on tf085 at Mon Jul 14 10:32:04 PM CEST 2025
+Running on cores 0-127 with governor ondemand
+No GPU known
+### Finished TaskPrologue
+
+=== TESTING SINGLE FILE PROCESSING ===
+Test file: PIT_01_06118_01.tiff
+======================================
+✓ Symbolic link created: /home/woody/iwi5/iwi5204h/temp_wsi_test/PIT_01_06118_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06118_01.tiff
+✓ Link verified - file accessible
+Original file info:
+-r-xr-xr-x 1 iwi5204h iwi5 339151382 May  4 11:32 /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06118_01.tiff
+Linked file info:
+lrwxrwxrwx 1 iwi5204h iwi5 63 Jul 14 22:32 /home/woody/iwi5/iwi5204h/temp_wsi_test/PIT_01_06118_01.tiff -> /home/janus/iwi5-datasets/REG2025/Train_01/PIT_01_06118_01.tiff
+Running CLAM processing...
+source:  /home/woody/iwi5/iwi5204h/temp_wsi_test
+patch_save_dir:  /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult_test/patches
+mask_save_dir:  /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult_test/masks
+stitch_save_dir:  /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult_test/stitches
+source : /home/woody/iwi5/iwi5204h/temp_wsi_test
+save_dir : /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult_test
+patch_save_dir : /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult_test/patches
+mask_save_dir : /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult_test/masks
+stitch_save_dir : /home/woody/iwi5/iwi5204h/HistGen/Data/WSI/PatchResult_test/stitches
+{'seg_params': {'seg_level': np.int64(-1), 'sthresh': np.int64(8), 'mthresh': np.int64(7), 'close': np.int64(4), 'use_otsu': np.False_, 'keep_ids': 'none', 'exclude_ids': 'none'}, 'filter_params': {'a_t': np.int64(16), 'a_h': np.int64(4), 'max_n_holes': np.int64(8)}, 'patch_params': {'use_padding': np.True_, 'contour_fn': 'four_pt'}, 'vis_params': {'vis_level': np.int64(-1), 'line_thickness': np.int64(100)}}
+Total: 1
+
+
+progress: 0.00, 0/1
+processing /home/woody/iwi5/iwi5204h/temp_wsi_test/PIT_01_06118_01.tiff
+Seg level chosen: 0
+WSI Level dimensions: (30905, 29587)
+Creating patches for:  PIT_01_06118_01 ...
+Total number of contours to process:  4
+Bounding Box: 10146 13573 2406 6522
+Contour Area: 7914101.0
+Extracted 38 coordinates
+Bounding Box: 26803 12358 2509 6586
+Contour Area: 8010378.5
+Extracted 39 coordinates
+Bounding Box: 9494 3742 2285 9754
+Contour Area: 6782907.5
+Extracted 38 coordinates
+Bounding Box: 25961 2607 2368 9752
+Contour Area: 7096527.5
+Extracted 42 coordinates
+segmentation took 35.184056997299194 seconds
+patching took 1.9890573024749756 seconds
+stitching took -1 seconds
+average segmentation time in s per slide: 35.184056997299194
+average patching time in s per slide: 1.9890573024749756
+average stiching time in s per slide: -1.0
+Processing completed!
+Cleaning up temporary directory...
+✓ Cleanup complete - original data is safe!
+=== JOB_STATISTICS ===
+=== current date     : Mon Jul 14 10:32:58 PM CEST 2025
+= Job-ID             : 515914 on tinyfat
+= Job-Name           : clam_patching_01
+= Job-Command        : /home/woody/iwi5/iwi5204h/clam_patch_800_2.sh
+= Initial workdir    : /home/woody/iwi5/iwi5204h
+= Queue/Partition    : work
+= Slurm account      : iwi5 with QOS=normal
+= Requested resources:  for 1-00:00:00
+= Elapsed runtime    : 00:00:56
+= Total RAM usage    : 14.2 GiB of requested  GiB (%)   
+= Node list          : tf085
+= Subm/Elig/Start/End: 2025-07-14T22:32:02 / 2025-07-14T22:32:02 / 2025-07-14T22:32:02 / 2025-07-14T22:32:58
+======================
+=== Quota infos ======
+    Path                 Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc               9.3G   104.9G   209.7G        N/A  20,847      500K   1,000K        N/A    
+    /home/woody            57.7G  1000.0G  1500.0G        N/A     138K   5,000K   7,500K        N/A    
+======================

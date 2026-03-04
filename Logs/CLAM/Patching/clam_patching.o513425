@@ -1,0 +1,18 @@
+=== JOB_STATISTICS ===
+=== current date     : Fri Jul  4 09:35:42 PM CEST 2025
+= Job-ID             : 513425 on tinyfat
+= Job-Name           : clam_patching
+= Job-Command        : /home/woody/iwi5/iwi5204h/clam_patch.sh
+= Initial workdir    : /home/woody/iwi5/iwi5204h
+= Queue/Partition    : work
+= Slurm account      : iwi5 with QOS=normal
+= Requested resources:  for 1-00:00:00
+= Elapsed runtime    : 00:14:04
+= Total RAM usage    : 185.4 GiB of requested  GiB (%)   
+= Node list          : tf090
+= Subm/Elig/Start/End: 2025-07-04T21:21:35 / 2025-07-04T21:21:35 / 2025-07-04T21:21:35 / 2025-07-04T21:35:39
+======================
+=== Quota infos ======
+    Path                 Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody            56.5G  1000.0G  1500.0G        N/A     126K   5,000K   7,500K        N/A    
+======================
