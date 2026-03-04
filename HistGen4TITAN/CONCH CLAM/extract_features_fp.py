@@ -34,8 +34,8 @@ def compute_w_loader(output_path, loader, model, verbose = 0):
 		print(f'processing a total of {len(loader)} batches'.format(len(loader)))
 
 	#MY CHANGES
-	# REG2025 is 20x magnification, so patch_size_level0 = 512 MY CHANGES
-	PATCH_SIZE_LEVEL0 = 512  # Hardcoded for your dataset
+	# REG2025 is 20x magnification, so patch_size_level0 = 512
+	PATCH_SIZE_LEVEL0 = 512  # Hardcoded for REG2025 dataset
 	#MY CHANGES ENDS
 
 	mode = 'w'
@@ -98,7 +98,7 @@ if __name__ == '__main__':
 	total = len(bags_dataset)
 
 	# changed num_workers to 0 to avoid problem with OpenSlide object sharing between worker processes
-	# clam_extract_CONCH_1_5.o1228460
+	# Eroor recorded in clam_extract_CONCH_1_5.o1228460
 	loader_kwargs = {'num_workers': 0, 'pin_memory': True} if device.type == "cuda" else {}
 
 	#Commented OG code
@@ -115,7 +115,7 @@ if __name__ == '__main__':
 			continue''' 
 	
 	# Error handeling for missing patches for corrupted TIFF images or images that were excluded from data alltogether
-	# clam_extract_CONCH_1_5.o122847
+	# Eroor recorded in clam_extract_CONCH_1_5.o122847
 	exist_idxs = []
 	for bag_candidate_idx in range(total):
 		slide_id = bags_dataset[bag_candidate_idx].split(args.slide_ext)[0]

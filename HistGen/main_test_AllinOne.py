@@ -115,7 +115,7 @@ def main():
     # build trainer and start to train
     tester = Tester(model, criterion, metrics, args, test_dataloader)
     tester.test()
-    # Added by Shubham to test experiments
+    # Added by me to test experiments
     #tester.xai()
     #tester.plotfix()
 
