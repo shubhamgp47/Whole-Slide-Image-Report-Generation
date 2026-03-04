@@ -18,6 +18,9 @@ outperform vision-only patch-level foundation models for automated report genera
 RQ4: What architectural and optimization adaptations are required when fine tuning
 HistGen framework on frozen pretrained foundation model used as feature extractor?
 
+
+<img width="729" height="909" alt="Flowchart (1)" src="https://github.com/user-attachments/assets/4a00c638-7b81-474d-a771-9453dde72c2d" />
+
 ## Results
 | Configuration | Feature Extractor | Encoder | REG Score | BLEU-4 | ROUGE-L |
 |---------------|-------------------|---------|-----------|--------|---------|
