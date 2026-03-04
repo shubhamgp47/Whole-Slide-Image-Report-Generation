@@ -11,4 +11,4 @@ unset SLURM_EXPORT_ENV
 source ~/.bashrc
 module load python
 conda activate histgen
-bash /home/woody/iwi5/iwi5204h/HistGen/train_wsi_report_og_plus_seed46.sh
+bash /home/woody/iwi5/iwi5204h/HistGen/train_wsi_report_seed4x.sh
