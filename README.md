@@ -88,3 +88,5 @@ p-value from paired t-test at α = 0.05
 
 Sample job scripts are present in [Scripts](/Job%20Scripts/)
 
+All the results can be found in [Results](/Results/)
+
