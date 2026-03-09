@@ -70,7 +70,10 @@ p-value from paired t-test at α = 0.05
    
 For segnmentation use [CLAM patching script](/HistGen/CLAM/patching_scripts/tcga-wsi-report.sh) using the clam conda environment.
 
-For feature extraction using HistGen feature extractor, Uni or Uni2 use the respective files in [Feature extraction](/HistGen/CLAM/extract_scripts) using clam conda environment and for CONCHv1.5 use the [Feature extraction](/HistGen4TITAN/CONCH%20CLAM/extract_features_calling_script.sh)
+For feature extraction using HistGen feature extractor, Uni or Uni2 use the respective files in [Feature extraction](/HistGen/CLAM/extract_scripts) using clam conda environment. For CONCHv1.5 use the [Feature extraction](/HistGen4TITAN/CONCH%20CLAM/extract_features_calling_script.sh) and post process the features with [Postprocessing for CONCHv1.5](/HistGen4TITAN/CONCH%20CLAM/PostProcess%20CONCH%20Features/postprocess_features.ipynb) using clam_conch environment.
 
-Tio create slide embeddings ftom TITAN use [TITAN Slide Embeddings](/HistGen4TITAN/extractSlideEmbeddings.py)
+To create slide embeddings ftom TITAN use [TITAN Slide Embeddings](/HistGen4TITAN/extractSlideEmbeddings.py) using histgen_titan environment.
+
+2. Training
+To train Histgen baseline and other patch level encoder variants (UNI and UNI2) use the files [HistGen Training](/HistGen/train_wsi_reportseed4x.sh), [UNI Training](/HistGen/train_wsi_report_uni1_seed4x.sh), and [UNI2 Training](/HistGen/train_wsi_report_uni2_seed4x.sh) respectively using the environment histgen.
 
