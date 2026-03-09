@@ -64,3 +64,9 @@ p-value from paired t-test at α = 0.05
 |        | **ROUGE-L** | 0.684±0.028 | 0.760±0.025 | +0.076 | [+0.033, +0.108] | **0.027** | **1.53 (large)** |
 |        | **REGScore** | 0.676±0.025 | 0.742±0.023 | +0.066 | [+0.030, +0.095] | **0.025** | **2.81 (large)** |
 
+
+## Usage
+###1. Preprocessing
+For segnmentation use /HistGen/CLAM/patching_scripts/tcga-wsi-report.sh using the clam conda environment
+For feature extraction using HistGen feature extractor, Uni or Uni2 use the respective files in /HistGen/CLAM/extract_scripts/
+
