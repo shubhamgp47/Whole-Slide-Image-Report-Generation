@@ -64,3 +64,27 @@ p-value from paired t-test at α = 0.05
 |        | **ROUGE-L** | 0.684±0.028 | 0.760±0.025 | +0.076 | [+0.033, +0.108] | **0.027** | **1.53 (large)** |
 |        | **REGScore** | 0.676±0.025 | 0.742±0.023 | +0.066 | [+0.030, +0.095] | **0.025** | **2.81 (large)** |
 
+
+## Usage
+1. Preprocessing
+   
+   For segnmentation use [CLAM patching script](/HistGen/CLAM/patching_scripts/tcga-wsi-report.sh) using the clam conda environment.
+   
+   For feature extraction using HistGen feature extractor, Uni or Uni2 use the respective files in [Feature extraction](/HistGen/CLAM/extract_scripts) using clam conda environment. For CONCHv1.5 use the [Feature extraction](/HistGen4TITAN/CONCH%20CLAM/extract_features_calling_script.sh) and post process the features with [Postprocessing for CONCHv1.5](/HistGen4TITAN/CONCH%20CLAM/PostProcess%20CONCH%20Features/postprocess_featues.ipynb) using clam_conch environment.
+   
+   To create slide embeddings ftom TITAN use [TITAN Slide Embeddings](/HistGen4TITAN/extractSlideEmbeddings.py) using histgen_titan environment.
+
+2. Training
+   
+   To train Histgen baseline and other patch level encoder variants (UNI and UNI2) use the files [HistGen Training](/HistGen/train_wsi_reportseed4x.sh), [UNI Training](/HistGen/train_wsi_report_uni1_seed4x.sh), and [UNI2 Training](/HistGen/train_wsi_report_uni2_seed4x.sh) respectively using the histgen environment.
+
+   To train TITAN, use [TITAN Training](/HistGen4TITAN/train_wsi_report_TITAN.sh) using histgen_titan environment.
+
+4. Inference
+
+   For BLUE, METEOR, ROUGE-L, use the files [HistGen Testing](/HistGen/test_wsi_report_seed4x.sh), [UNI Testing](/HistGen/test_wsi_report_UNI1_seed4x.sh) [UNI2 Testing](/HistGen/test_wsi_report_UNI2_1_seed4x.sh) with histgen environment. For TITAN use [TITAN Testing](/HistGen4TITAN/test_wsi_report_5_seed4x.sh) with histgen_titan environment.
+
+   For REGScore use the file [HistGen Testing](/Other%20Activities/REG2025%20Inference/reg_evaluator.py) with reg2025-eval environmet for all the models.
+
+Sample job scripts are present in [Scripts](/Job%20Scripts/)
+
