@@ -75,5 +75,16 @@ p-value from paired t-test at α = 0.05
    To create slide embeddings ftom TITAN use [TITAN Slide Embeddings](/HistGen4TITAN/extractSlideEmbeddings.py) using histgen_titan environment.
 
 2. Training
-   To train Histgen baseline and other patch level encoder variants (UNI and UNI2) use the files [HistGen Training](/HistGen/train_wsi_reportseed4x.sh), [UNI Training](/HistGen/train_wsi_report_uni1_seed4x.sh), and [UNI2 Training](/HistGen/train_wsi_report_uni2_seed4x.sh) respectively using the environment histgen.
+   
+   To train Histgen baseline and other patch level encoder variants (UNI and UNI2) use the files [HistGen Training](/HistGen/train_wsi_reportseed4x.sh), [UNI Training](/HistGen/train_wsi_report_uni1_seed4x.sh), and [UNI2 Training](/HistGen/train_wsi_report_uni2_seed4x.sh) respectively using the histgen environment.
+
+   To train TITAN, use [TITAN Training](/HistGen4TITAN/train_wsi_report_TITAN.sh) using histgen_titan environment.
+
+4. Inference
+
+   For BLUE, METEOR, ROUGE-L, use the files [HistGen Testing](/HistGen/test_wsi_report_seed4x.sh), [UNI Testing](/HistGen/test_wsi_report_UNI1_seed4x.sh) [UNI2 Testing](/HistGen/test_wsi_report_UNI2_1_seed4x.sh) with histgen environment. For TITAN use [TITAN Testing](/HistGen4TITAN/test_wsi_report_5_seed4x.sh) with histgen_titan environment.
+
+   For REGScore use the file [HistGen Testing](/Other%20Activities/REG2025%20Inference/reg_evaluator.py) with reg2025-eval environmet for all the models.
+
+Sample job scripts are present in [Scripts](/Job%20Scripts/)
 
